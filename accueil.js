@@ -1,7 +1,7 @@
 /* ========= Ecriture ============*/
 
 var typed = new Typed(".dynamic-text", {
-    strings: ["Artiste 2D", "Level Designer", "Auteur"],
+    strings: ["Level Designer","Game Designer", "Artiste", "Auteur"],
     typeSpeed: 80,
     backDelay: 1000,
     backSpeed: 60,

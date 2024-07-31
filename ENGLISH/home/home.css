@@ -4,7 +4,7 @@ body {
 }
 
 html::-webkit-scrollbar {
-    display: none;
+    display: visible;
     }
 header {
     background-color: #f4ede7;
@@ -609,7 +609,7 @@ header {
     }
     
     html::-webkit-scrollbar {
-        display: none;
+        display: visible;
         }
     header {
         background-color: #f4ede7;
@@ -1212,7 +1212,7 @@ header {
     }
     
     html::-webkit-scrollbar {
-        display: none;
+        display: visible;
         }
     header {
         background-color: #f4ede7;

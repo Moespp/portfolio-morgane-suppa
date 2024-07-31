@@ -4,7 +4,7 @@ body {
 }
 
 html::-webkit-scrollbar {
-    display: none;
+    display: visible;
     }
 header {
     background-color: #f4ede7;
@@ -709,7 +709,7 @@ p {
 
 .gameplay-titre {
     position: absolute; /* Position absolue */
-    top: 235%; /* Ajustez la position selon vos besoins */
+    top: 245%; /* Ajustez la position selon vos besoins */
     left: 49%; /* Ajustez la position selon vos besoins */
     transform: translate(-50%, -50%); /* Centrer le titre */
     font-size: 2em; /* Ajustez la taille selon vos besoins */
@@ -843,7 +843,7 @@ p {
     }
     
     html::-webkit-scrollbar {
-        display: none;
+        display: visible;
     }
 
     header {
