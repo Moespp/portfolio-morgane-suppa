@@ -55,9 +55,9 @@ const Button = ({
       disabled={disabled}
       type={type}
     >
-      {firstIcon && iconSpan(firstIcon, "mr-2")}
-      <p className="text-center">{label}</p>
-      {secondIcon && iconSpan(secondIcon, "ml-2")}
+      {firstIcon && iconSpan(firstIcon, "")}
+      <p>{label}</p>
+      {secondIcon && iconSpan(secondIcon, "")}
     </button>
   );
 };

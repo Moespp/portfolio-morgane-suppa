@@ -1,7 +1,9 @@
+import Title from "../../../components/common/Title";
+
 const ListProjects = () => {
   return (
     <div className="flex flex-col gap-4 w-full max-w-[1200px] mx-auto">
-      <h2 className="text-4xl font-extrabold text-center">Mes projets</h2>
+      <Title text="Mes projets" />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         <div className="flex flex-col gap-4">
           <h3 className="text-xl font-semibold">
