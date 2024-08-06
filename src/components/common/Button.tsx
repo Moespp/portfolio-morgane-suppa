@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import Icon, { IconProps } from "./Icon";
 
 type ButtonProps = {
