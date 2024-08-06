@@ -1,9 +1,14 @@
-const Project = () => {
-    return (
-        <div>
-            <h1>Project</h1>
-        </div>
-    )
-}
+import { useParams } from "react-router";
 
-export default Project
+const Project = () => {
+  // récupérer l'id de l'url
+  const id = useParams().id;
+
+  return (
+    <div>
+      <h1>Project {id}</h1>
+    </div>
+  );
+};
+
+export default Project;

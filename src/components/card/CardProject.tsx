@@ -1,5 +1,6 @@
 import "../../styles/card-project.css";
 import Badge from "../common/Badge";
+import { Link } from "react-router-dom";
 
 interface CardProjectProps {
   id: string;
@@ -9,9 +10,9 @@ interface CardProjectProps {
   type: "Pro" | "Perso";
 }
 
-const CardProject = ({ title, image, tags, type }: CardProjectProps) => {
+const CardProject = ({ id, title, image, tags, type }: CardProjectProps) => {
   return (
-    <div className="card-project">
+    <Link className="card-project" to={`/project/${id}`}>
       <img
         src={image}
         alt="illustration du projet"
@@ -26,7 +27,7 @@ const CardProject = ({ title, image, tags, type }: CardProjectProps) => {
         </div>
         <h2 className="text-2xl font-semibold">{title}</h2>
       </div>
-    </div>
+    </Link>
   );
 };
 
