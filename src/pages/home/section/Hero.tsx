@@ -5,7 +5,7 @@ interface HeroProps {
 
 const Hero = ({ videoSrc, children }: HeroProps) => {
   return (
-    <div className="relative flex flex-col justify-center items-center w-full min-h-[100vh] h-full px-4">
+    <div className="relative flex flex-col gap-4 justify-center items-center w-full min-h-[100vh] h-full px-4">
       <img
         src={videoSrc}
         alt="about"

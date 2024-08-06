@@ -8,6 +8,7 @@ export default {
         white2: "#FDFCFC",
         black: "#202020",
         primary: "#a46552",
+        red: "#be1f1f",
 
         button: {
           fill: {

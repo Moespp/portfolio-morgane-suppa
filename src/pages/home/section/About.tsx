@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import Bento from "../../../components/bentos/Bento";
-import Button from "../../../components/common/Button";
 import LinksIcons from "../../../components/common/LinksIcons";
-import { Download, icons } from "lucide-react";
 import Title from "../../../components/common/Title";
 
 const SectionAbout = () => {
@@ -23,7 +21,7 @@ const SectionAbout = () => {
   return (
     <section
       id="section-about"
-      className="flex flex-col gap-24 items-center justify-center min-h-screen rounded-xl max-w-[1500px] mx-auto px-8 sm:px-10 py-24"
+      className="flex flex-col sm:gap-24 gap-8 items-center justify-center min-h-screen rounded-xl max-w-[1500px] mx-auto px-8 sm:px-10 py-24"
     >
       {/* title about me */}
       <Title text="À propos de moi" />
@@ -57,7 +55,7 @@ const SectionAbout = () => {
           </p>
         </Bento>
         <div className="flex flex-col items-center justify-center gap-4 lg:w-1/2">
-          <Bento>
+          <Bento className="h-full">
             <h2 className="text-xl font-semibold">Quelques point sur moi :</h2>
             <ul className="list-disc pl-4 flex flex-col gap-2 text-sm">
               <li>
@@ -68,15 +66,15 @@ const SectionAbout = () => {
                 Wisps, Apex Legends, Baldur's Gate 3 sont mes jeux préférés.
               </li>
               <li>
-                J'Autodidacte dans le dessin depuis plus de 15 ans, je fais du
+                Autodidacte dans le dessin depuis plus de 15 ans, je fais du
                 réalisme ainsi que du semi-réaliste très sombre.
               </li>
               <li>
-                J'Pianiste depuis plus de 10 ans, je joue également de la
-                guitare, du ukulélé et je chante également.
+                Pianiste depuis plus de 10 ans, je joue également de la guitare,
+                du ukulélé et je chante également.
               </li>
               <li>
-                J'Créatrice de pleins d'univers de Role Play sur Discord mais
+                Créatrice de pleins d'univers de Role Play sur Discord mais
                 également Maître du jeu.
               </li>
             </ul>
@@ -85,21 +83,8 @@ const SectionAbout = () => {
             row={!isMobile ? true : false}
             className="w-full gap-4 item-center justify-center"
           >
-            <div className="flex flex-row gap-4 w-full">
-              {/* mon cv + me contacter */}
-              <Button
-                firstIcon={{ name: "Download", size: 24 }}
-                label="Mon CV"
-                onClick={() => {}}
-              />
-              <Button
-                firstIcon={{ name: "Mail", size: 24 }}
-                label="Me contacter"
-                onClick={() => {}}
-              />
-            </div>
-            <div className="flex flex-row gap-4 w-full items-center sm:justify-end justify-start">
-              <p className="text-sm">Mes réseaux sociaux :</p>
+            <div className="flex flex-row gap-4 w-full items-center justify-between">
+              <p className="text-sm font-semibold">Mes réseaux sociaux :</p>
               <LinksIcons />
             </div>
           </Bento>

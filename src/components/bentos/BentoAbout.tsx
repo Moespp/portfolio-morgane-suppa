@@ -9,7 +9,7 @@ const BentoAbout = () => {
 
   return (
     <div
-      className={`mx-4 relative -translate-y-[50vh] top-[50vh] flex flex-col items-center justify-center max-w-[700px] gap-6 bg-white2 pt-14 px-6 sm:px-10 pb-4 rounded-xl shadow-lg`}
+      className={`relative flex flex-col items-center justify-center gap-6 bg-white2 pt-14 px-6 sm:px-10 pb-4 rounded-xl shadow-lg`}
     >
       <img
         src="./img/morgane.png"
