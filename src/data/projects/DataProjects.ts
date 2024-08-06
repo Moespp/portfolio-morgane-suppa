@@ -8,7 +8,7 @@ const projects: ProjectDTO[] = [
     description:
       "Noreya is a visual novel written by Morgane and illustrated by herself. It is a dark fantasy adventure set in a world where magic is forbidden and the only way to survive is to find and use the power of the crows.",
     type: "Pro",
-    tags: ["Level", "Game", "Narrative Design", "Scripting", "Game Design"],
+    tags: ["Level Designer", "Game Design", "Narrative Designer", "Scripting"],
     link: "https://www.a-crows-nest.com/",
   },
 ];

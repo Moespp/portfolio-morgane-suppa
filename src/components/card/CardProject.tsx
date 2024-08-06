@@ -1,3 +1,4 @@
+import { TagDTO } from "../../data/projects/InterfacesProjects";
 import "../../styles/card-project.css";
 import Badge from "../common/Badge";
 import { Link } from "react-router-dom";
@@ -6,7 +7,7 @@ interface CardProjectProps {
   id: string;
   title: string;
   image: string;
-  tags: string[];
+  tags: TagDTO[];
   type: "Pro" | "Perso";
 }
 

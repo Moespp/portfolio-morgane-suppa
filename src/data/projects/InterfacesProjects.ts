@@ -1,11 +1,10 @@
 export type TagDTO =
-  | "Level"
-  | "Game"
-  | "Narrative Design"
+  | "Level Designer"
+  | "Narrative Designer"
+  | "Artiste"
   | "Scripting"
   | "Game Design"
-  | "PoC"
-  | "Artist";
+  | "Auteur";
 
 export interface ProjectDTO {
   id: string;
