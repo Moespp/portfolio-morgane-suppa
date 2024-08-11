@@ -11,7 +11,10 @@ const Home = () => {
     <>
       <Header />
       <main className="flex flex-col items-center justify-center min-h-screen bg-white h-full">
-        <Hero videoSrc="./img/project/noreya/IMG_0282.gif">
+        <Hero
+          videoSrc="./img/project/noreya/IMG_0282.gif"
+          className="items-center"
+        >
           <div className="max-w-[700px] px-4 flex flex-col gap-4 items-center justify-center">
             <BentoAbout />
             <ButtonStyled

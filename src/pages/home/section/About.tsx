@@ -25,7 +25,7 @@ const SectionAbout = () => {
     >
       {/* title about me */}
       <Title text="À propos de moi" />
-      <div className="flex sm:flex-row flex-col gap-4 w-full">
+      <div className="flex md:flex-row flex-col gap-4 w-full">
         <Bento className="flex flex-col justify-center gap-4 lg:w-1/2">
           <img
             src="./img/morgane.png"

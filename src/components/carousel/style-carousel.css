@@ -1,0 +1,64 @@
+/* src/components/Carousel.css */
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    position: relative;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+.index-indicator-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1rem;
+}
+
+.index-indicator {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 130px;
+    cursor: pointer;
+    transition: background-color 0.15s ease , width 0.15s ease;
+    transition-delay: 0.05s;
+}
+
+.index-indicator.active {
+    background-color: #be1f1f;
+    width: 32px;
+}
+
+
+/* si en mode téléphorn  */
+@media screen and (max-width: 1024px) {
+    .carousel-container {
+        width: 100%;
+    }
+
+    .carousel-slide img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+}

@@ -1,5 +1,63 @@
 {
     "home": {
         "title": "Accueil"
+    },
+    "projects": {
+        "noreya": {
+            "hero": {
+                "title": "Noreya: Le projet d'or",
+                "description": "Noreya : The Gold Project est un jeu metroidvania frénétique du studio toulousain Dreamirl, dans lequel les joueurs doivent entrer dans un conflit divin où le choix entre l'or et la lumière déterminera leur destin",
+                "works": "Pour ce projet j'ai travaillé sur le Game & Level Design, le Narrative Design ainsi que le Level Art."
+            },
+            "conception": {
+                "title": "Conception",
+                "description": [
+                    "Conception schémas macro, middle de la map et des 7 différents biomes.",
+                    "Création du walkthrough du jeu",
+                    "Placement des événements (cinématiques, course poursuite, vagues ennemies...)",
+                    "Gérer le rythme et la difficulté des tableaux.",
+                    "Conception des challenges et puzzles “papier”"
+                ]
+            },
+            "blockout": {
+                "title": "Blockout",
+                "description": [
+                    "Travail sur les niveaux en blocs gris pour les playtests et test des mécaniques.",
+                    "Itérations.",
+                    "Assurer la jouabilités des niveaux et la transition entre eux.",
+                    "Test des énigmes et vérification de leur fonctionnement dans les challenges.",
+                    "Collaboration avec le pôle DEV.",
+                    "Intégration des fonctionnalités codées par les développeurs dans le monde (événements, monstres, etc.)",
+                    "Playtest et correction de bugs."
+                ]
+            },
+            "rendu": {
+                "title": "Rendu",
+                "description": [
+                    "Collaboration avec le pôle ART.",
+                    "Retours sur les sprites 2D",
+                    "Placement et décoration des maps des niveaux validés.",
+                    "Attention particulière portée à chaque détail.",
+                    "Retour sur les assets et props.",
+                    "Corrections de bugs"
+                ]
+            },
+            "gameplay": {
+                "title": "Gameplay",
+                "card1": {
+                    "description": "Le jeu offre une riche expérience d'exploration, avec de vastes zones à découvrir et de nombreux secrets à dévoiler. Au cours de leur aventure, les joueurs devront affronter une multitude d'ennemis variés. Les joueurs devront naviguer habilement à travers des environnements complexes tout en surmontant des obstacles pour progresser dans le jeu."
+                },
+                "card2": {
+                    "description": "Les joueurs doivent résoudre des puzzles pour avancer. Pour celui ci, ils doivent apprendre à utiliser le ghost (un double fantomatique) pour réussir. Le joueur doit résoudre le puzzle pour pouvoir passer de l'autre côté. En utilisant une stèle de prière, il peut échanger sa place avec son double corporel. La clé de ce puzzle est d'interchanger les deux formes pour progresser."
+                },
+                "card3": {
+                    "description": "Les combats de boss sont divisés en plusieurs phases, chacune apportant son lot de défis uniques. Le boss final du jeu marque un retour au style bullet hell. Chaque boss possède des patterns d'attaque spécifiques, obligeant les joueurs à adapter constamment leurs stratégies. Les boss de Noreya sont particulièrement renommés pour leur complexité et leur créativité, avec des attaques imprévisibles, testant à la fois la maîtrise et la réactivité des joueurs."
+                },
+                "card4": {
+                    "title": "Titre 4",
+                    "description": "Le jeu alterne entre des phases d'exploration, de puzzles/challenges et de combats de boss, offrant une expérience variée et engageante. Les joueurs naviguent à travers six biomes distincts, chacun doté d'une direction artistique unique et soigneusement élaborée en cohérence avec le level design. Ces environnements diversifiés sont non seulement visuellement captivants mais aussi conçus pour enrichir le gameplay. Cette combinaison de gameplay varié, soutenue par une esthétique immersive, crée une expérience de jeu satisfaisante et mémorable."
+                }
+            }
+        }
     }
 }
