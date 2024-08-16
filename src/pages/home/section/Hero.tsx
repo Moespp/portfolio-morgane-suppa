@@ -7,12 +7,12 @@ interface HeroProps {
 const Hero = ({ videoSrc, children, className }: HeroProps) => {
   return (
     <section
-      className={`relative flex flex-col gap-4 justify-center w-full min-h-[100vh] h-full px-4 ${className}`}
+      className={`relative flex flex-col gap-4 justify-center w-full min-h-[100vh] px-4 py-24 ${className}`}
     >
       <img
         src={videoSrc}
         alt="about"
-        className="absolute w-screen h-screen top-0 left-0 object-cover"
+        className="absolute w-screen h-full top-0 left-0 object-cover"
       />
       {children}
     </section>

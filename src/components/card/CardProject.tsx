@@ -13,7 +13,10 @@ interface CardProjectProps {
 
 const CardProject = ({ id, title, image, tags, type }: CardProjectProps) => {
   return (
-    <Link className="card-project" to={`/project/${id}`}>
+    <Link
+      className="card-project justify-self-center	w-full"
+      to={`/project/${id}`}
+    >
       <img
         src={image}
         alt="illustration du projet"

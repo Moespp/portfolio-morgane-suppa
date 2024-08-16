@@ -2,9 +2,15 @@ import { useEffect, useState } from "react";
 import Bento from "../../../components/bentos/Bento";
 import LinksIcons from "../../../components/common/LinksIcons";
 import Title from "../../../components/common/Title";
+import { useTranslation } from "react-i18next";
 
 const SectionAbout = () => {
+  const { t } = useTranslation();
   const [isMobile, setIsMobile] = useState(false);
+
+  const bento1Text = t("home.about.bento1", {
+    returnObjects: true,
+  }) as string[];
 
   useEffect(() => {
     window.addEventListener("resize", () => {
@@ -32,27 +38,15 @@ const SectionAbout = () => {
             alt="about"
             className="w-[80px] h-[80px] rounded-full"
           />
-          <p className="text-sm">
-            Forte de premières expériences dans l'industrie du jeu, j'ai
-            commencé ma carrière dans un Escape Game (Secret Door) où j'ai
-            travaillé sur 4 salles d'escape compétitive (Une première en France)
-            et où j’ai été Game Master. J'ai poursuivie ma carrière au sein du
-            studio indépendant toulousain Dreamirl ainsi que du studio bordelais
-            HammerHead.
-          </p>
-          <p className="text-sm">
-            En parallèle de ma carrière dans le jeu vidéo, je suis auteur et
-            l’illustratrice d'un roman visuel intitulé A Crow’s Nest, une
-            aventure dans un monde Dark Fantasy.
-          </p>
-          <p className="text-sm">
-            Je dessine également pour des campagnes de jeu de rôle et créer
-            également mes propres campagnes au sein d’univers où j’ai créé le
-            World Building intégral.
-          </p>
-          <p className="text-sm">
-            Chaque étape a façonné ma passion et affiné mes compétences.
-          </p>
+          {Array.isArray(bento1Text) ? (
+            bento1Text.map((text, index) => (
+              <p key={index} className="text-sm">
+                {text}
+              </p>
+            ))
+          ) : (
+            <p className="text-sm">Error</p>
+          )}{" "}
         </Bento>
         <div className="flex flex-col items-center justify-center gap-4 lg:w-1/2">
           <Bento className="h-full">

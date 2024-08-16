@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import BentoAbout from "../../components/bentos/BentoAbout";
 import ButtonStyled from "../../components/common/ButtonStyled";
 import Footer from "../../components/common/Footer";
@@ -7,6 +8,7 @@ import Hero from "./section/Hero";
 import ListProjects from "./section/ListProjects";
 
 const Home = () => {
+  const { t } = useTranslation();
   return (
     <>
       <Header />
@@ -18,11 +20,11 @@ const Home = () => {
           <div className="max-w-[700px] px-4 flex flex-col gap-4 items-center justify-center">
             <BentoAbout />
             <ButtonStyled
-              label="Télécharger mon CV"
+              label={t("home.hero.dowload")}
               icon={{ name: "Download", size: 24 }}
             />
             <ButtonStyled
-              label="Me contacter"
+              label={t("home.hero.contact")}
               icon={{ name: "Mail", size: 24 }}
             />
           </div>
