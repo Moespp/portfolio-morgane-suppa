@@ -12,49 +12,45 @@ import { useEffect, useState } from "react";
 
 const Project = () => {
   const { t } = useTranslation();
-
-  const id = useParams().id;
+  const { id } = useParams<{ id: string }>();
   const project = projects.find((p) => p.id === id);
   const pageContent = project?.page;
+
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   const [widthVideo, setWidthVideo] = useState(window.innerWidth);
   const [heightVideo, setHeightVideo] = useState(widthVideo * 0.5625);
-  // const heightVideo = widthVideo * 0.5625;
 
   useEffect(() => {
-    window.addEventListener("resize", () => {
-      setWidthVideo(window.innerWidth > 1500 ? 1500 : window.innerWidth);
-      setHeightVideo(
-        window.innerWidth > 1500 ? 1500 * 0.5625 : window.innerWidth * 0.5625
-      );
-      if (window.innerWidth < 768) {
-        setIsMobile(true);
-      } else {
-        setIsMobile(false);
-      }
-    });
-
-    return () => {
-      window.removeEventListener("resize", () => {
-        setWidthVideo(window.innerWidth);
-        setHeightVideo(widthVideo * 0.5625);
-        if (window.innerWidth < 768) {
-          setIsMobile(true);
-        } else {
-          setIsMobile(false);
-        }
-      });
+    const handleResize = () => {
+      const newWidth = window.innerWidth > 1500 ? 1500 : window.innerWidth;
+      setWidthVideo(newWidth);
+      setHeightVideo(newWidth * 0.5625);
+      setIsMobile(window.innerWidth < 768);
     };
-  }, [widthVideo]);
 
-  const conceptionDesc = t("projects.noreya.conception.description", {
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  // Chemin de traduction
+  const translateProjectPath = `${project?.translation}`;
+
+  // Affichage des chemins pour débogage
+  console.log("translateProjectPath:", translateProjectPath);
+  console.log(
+    "Conception path:",
+    `${translateProjectPath}.conception.description`
+  );
+
+  const conceptionDesc = t(`${translateProjectPath}.conception.description`, {
     returnObjects: true,
   }) as string[];
-
-  const blockoutDesc = t("projects.noreya.blockout.description", {
+  const blockoutDesc = t(`${translateProjectPath}.blockout.description`, {
     returnObjects: true,
   }) as string[];
-  const renduDesc = t("projects.noreya.rendu.description", {
+  const renduDesc = t(`${translateProjectPath}.rendu.description`, {
     returnObjects: true,
   }) as string[];
 
@@ -86,8 +82,8 @@ const Project = () => {
             </Bento>
           </div>
         </Hero>
-        {/* Section vidéo youtube */}
         <section className="flex flex-col gap-4 items-center justify-center mx-auto">
+          <Title text={t(`projects.sectionTitle.trailer`)} className="mb-12" />
           <iframe
             width={widthVideo > 1500 ? 1500 : widthVideo}
             height={heightVideo}
@@ -99,35 +95,37 @@ const Project = () => {
         </section>
 
         <section className="flex flex-col md:gap-24 gap-12 items-start justify-start px-4 sm:px-10 max-w-[1500px] mx-auto">
+          <Title
+            text={t("projects.sectionTitle.about")}
+            className="mb-12 mx-auto"
+          />
           <CardWithCarousel
-            title={t("projects.noreya.conception.title")}
+            title={t(`${translateProjectPath}.conception.title`)}
             description={conceptionDesc}
             carouselImages={pageContent?.conceptionImage ?? []}
           />
           <CardWithCarousel
-            title={t("projects.noreya.blockout.title")}
+            title={t(`${translateProjectPath}.blockout.title`)}
             description={blockoutDesc}
             carouselImages={pageContent?.blockoutImage ?? []}
             reverse
           />
           <CardWithCarousel
-            title={t("projects.noreya.rendu.title")}
+            title={t(`${translateProjectPath}.rendu.title`)}
             description={renduDesc}
             carouselImages={pageContent?.renduImage ?? []}
           />
         </section>
-        {/* section gameplay */}
+
         <section className="flex flex-col gap-4 items-center justify-start px-4 sm:px-10 max-w-[1500px] mx-auto">
-          <Bento className="w-full md:w-fit text-center">
-            <Title text={t("projects.noreya.gameplay.title")} />
-          </Bento>
+          <Title text={t(`projects.sectionTitle.gameplay`)} className="mb-12" />
           <Bento className="w-fit items-center" row={!isMobile}>
             <div className="w-full md:w-1/2 h-fit">
               <h3 className="text-xl font-bold mb-2">
-                {t("projects.noreya.gameplay.card4.title")}
+                {t(`${translateProjectPath}.gameplay.card4.title`)}
               </h3>
               <p className="text-sm">
-                {t("projects.noreya.gameplay.card4.description")}
+                {t(`${translateProjectPath}.gameplay.card4.description`)}
               </p>
             </div>
             <img
@@ -136,23 +134,23 @@ const Project = () => {
               className="w-full md:w-1/2"
             />
           </Bento>
-          <div className="flex flex-col gap-4 md:flex-row ">
+          <div className="flex flex-col gap-4 md:flex-row">
             <Bento className="w-full md:w-1/2 h-fit">
               <img src={pageContent?.gameplayImageCard1} alt="gameplay" />
               <p className="text-sm">
-                {t("projects.noreya.gameplay.card1.description")}
+                {t(`${translateProjectPath}.gameplay.card1.description`)}
               </p>
             </Bento>
-            <Bento className="w-full md:w-1/2 2 h-fit">
+            <Bento className="w-full md:w-1/2 h-fit">
               <img src={pageContent?.gameplayImageCard2} alt="gameplay" />
               <p className="text-sm">
-                {t("projects.noreya.gameplay.card2.description")}
+                {t(`${translateProjectPath}.gameplay.card2.description`)}
               </p>
             </Bento>
-            <Bento className="w-full md:w-1/2 2 h-fit">
+            <Bento className="w-full md:w-1/2 h-fit">
               <img src={pageContent?.gameplayImageCard3} alt="gameplay" />
               <p className="text-sm">
-                {t("projects.noreya.gameplay.card3.description")}
+                {t(`${translateProjectPath}.gameplay.card3.description`)}
               </p>
             </Bento>
           </div>

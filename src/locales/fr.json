@@ -37,12 +37,18 @@
         }
     },
     "projects": {
+        "sectionTitle": {
+            "trailer": "Trailer",
+            "about": "À propos",
+            "gameplay": "Gameplay"
+        },
         "noreya": {
             "hero": {
                 "title": "Noreya: Le projet d'or",
                 "description": "Noreya : The Gold Project est un jeu metroidvania frénétique du studio toulousain Dreamirl, dans lequel les joueurs doivent entrer dans un conflit divin où le choix entre l'or et la lumière déterminera leur destin",
                 "works": "Pour ce projet j'ai travaillé sur le Game & Level Design, le Narrative Design ainsi que le Level Art."
             },
+
             "conception": {
                 "title": "Conception",
                 "description": [
@@ -77,7 +83,6 @@
                 ]
             },
             "gameplay": {
-                "title": "Gameplay",
                 "card1": {
                     "description": "Le jeu offre une riche expérience d'exploration, avec de vastes zones à découvrir et de nombreux secrets à dévoiler. Au cours de leur aventure, les joueurs devront affronter une multitude d'ennemis variés. Les joueurs devront naviguer habilement à travers des environnements complexes tout en surmontant des obstacles pour progresser dans le jeu."
                 },

@@ -4,6 +4,7 @@ const projects: ProjectDTO[] = [
   {
     id: "1",
     title: "Noreya: The gold project",
+    translation: "projects.noreya",
     img: "./img/project/noreya/IMG_9372.jpg",
     description:
       "Noreya is a visual novel written by Morgane and illustrated by herself. It is a dark fantasy adventure set in a world where magic is forbidden and the only way to survive is to find and use the power of the crows.",
@@ -41,6 +42,7 @@ const projects: ProjectDTO[] = [
   {
     id: "2",
     title: "Red did not die",
+    translation: "project.Red",
     img: "./img/project/noreya/IMG_9372.jpg",
     description:
       "Noreya is a visual novel written by Morgane and illustrated by herself. It is a dark fantasy adventure set in a world where magic is forbidden and the only way to survive is to find and use the power of the crows.",
