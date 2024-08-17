@@ -1,5 +1,6 @@
 import { useCallback } from "react";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const clickLogo = useCallback(() => {
@@ -21,16 +22,14 @@ const Header = () => {
       </h1>
 
       <div className="flex items-center gap-4">
-        <a
-          href="#"
+        <Link
+          to="/"
           className="text-sm font-semibold leading-6 text-black hover:text-primary transition-all duration-300"
         >
           Acceuil
-        </a>
+        </Link>
         <Button
-          onClick={() => {
-            // sendmail
-          }}
+          onClick={() => window.open("mailto:morgane.suppa.pro@gmail.com")}
           label="Contact"
         />
       </div>

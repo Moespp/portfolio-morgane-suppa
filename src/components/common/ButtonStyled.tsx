@@ -5,11 +5,17 @@ interface ButtonStyledProps {
   label: string;
   icon: IconProps;
   onClick?: () => void;
+  className?: string;
 }
 
-const ButtonStyled = ({ label, icon, onClick }: ButtonStyledProps) => {
+const ButtonStyled = ({
+  label,
+  icon,
+  onClick,
+  className,
+}: ButtonStyledProps) => {
   return (
-    <button className="button-styled" onClick={onClick}>
+    <button className={`button-styled ${className}`} onClick={onClick}>
       <span className="text-sm">
         <Icon {...icon} />
       </span>

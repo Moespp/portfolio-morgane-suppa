@@ -32,13 +32,16 @@ const Home = () => {
           <div className="max-w-[700px] px-4 flex flex-col gap-4 items-center justify-center">
             <BentoAbout />
             <ButtonStyled
-              label={t("home.hero.dowload")}
+              label={t("home.hero.visualization")}
               icon={{ name: "Eye", size: 24 }}
               onClick={openModal}
+              className="w-full"
             />
             <ButtonStyled
               label={t("home.hero.contact")}
               icon={{ name: "Mail", size: 24 }}
+              onClick={() => window.open("mailto:morgane.suppa.pro@gmail.com")}
+              className="w-full"
             />
           </div>
         </Hero>
@@ -59,9 +62,8 @@ const Home = () => {
               icon={{ name: "Download", size: 24 }}
               onClick={dowloadPdf}
             />
-            {/* Bouton close */}
             <ButtonStyled
-              label={t("home.hero.close")}
+              label={t("common.close")}
               icon={{ name: "X", size: 24 }}
               onClick={closeModal}
             />

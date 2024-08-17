@@ -1,4 +1,9 @@
 {
+    "common": {
+        "close": "Fermer la fenêtre",
+        "back": "Retour",
+        "contact": "Contact"
+    },
     "header": {
         "title": "MORGANE SUPPA"
     },
@@ -8,6 +13,7 @@
             "description": "Depuis mes premiers pas, j'ai toujours été attirée par l'art et les jeux-vidéos. Le Level Design et la Narration furent immédiatement les spécialités où j'étais le plus à l'aise suivi du storytelling environnemental ainsi que le Level Art. Mon profil artistique fusionne avec mes compétences techniques. Mes capacités artistiques sont le socle de mes collaborations avec les autres pôles, une alliance que je pense indispensable pour donner vie à des projets. J'ai la chance d'adorer mon métier et c'est un plaisir pour moi de partager avec vous ce que j'ai réalisé.",
             "more": "En savoir plus",
             "dowload": "Télécharger mon CV",
+            "visualization": "Voir mon CV",
             "contact": "Me contacter"
         },
         "about": {
@@ -41,6 +47,11 @@
             "trailer": "Trailer",
             "about": "À propos",
             "gameplay": "Gameplay"
+        },
+        "next_project": "Projet suivant",
+        "collaborate": {
+            "title": "Ensemble collaborons",
+            "description": "Collaborate avec moi pour créer des projets"
         },
         "noreya": {
             "hero": {
