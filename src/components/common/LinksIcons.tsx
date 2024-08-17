@@ -4,7 +4,7 @@ const LinksIcons = () => {
   return (
     <div className="flex items-center gap-4">
       <a
-        href="#"
+        href="https://x.com/GameDesign_Moe"
         target="_blank"
         rel="noopener noreferrer"
         className="text-sm font-semibold text-black hover:text-primary transition-all duration-300"
@@ -12,7 +12,7 @@ const LinksIcons = () => {
         <Twitter />
       </a>
       <a
-        href="#"
+        href="https://www.artstation.com/moespp"
         className="text-sm font-semibold hover:[&>*]:stroke-primary [&>*]:transition-all [&>*]:duration-300"
         target="_blank"
         rel="noopener noreferrer"
