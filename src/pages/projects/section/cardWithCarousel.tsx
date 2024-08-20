@@ -18,9 +18,11 @@ const CardWithCarousel = ({
 }: CardWithCarouselProps) => {
   return (
     <div
-      className={`flex flex-col ${reverse ? "md:flex-row-reverse" : "md:flex-row"} gap-4 items-center justify-start ${className}`}
+      className={`flex flex-col ${reverse ? "md:flex-row-reverse" : "md:flex-row"} gap-4 items-center ${carouselImages.length > 1 ? "justify-start" : "mx-auto w-full"} ${className}`}
     >
-      <Bento className="w-full md:w-1/2">
+      <Bento
+        className={`w-full ${carouselImages.length > 1 ? "md:w-1/2" : ""}`}
+      >
         <h2 className="text-xl md:text-2xl font-bold">{title}</h2>
         <ul className="list-disc list-inside">
           {Array.isArray(description) ? (
@@ -32,7 +34,12 @@ const CardWithCarousel = ({
           )}
         </ul>
       </Bento>
-      <CarouselContainer images={carouselImages} className="w-full md:w-1/2" />
+      {carouselImages.length > 1 && (
+        <CarouselContainer
+          images={carouselImages}
+          className="w-full md:w-1/2"
+        />
+      )}{" "}
     </div>
   );
 };
