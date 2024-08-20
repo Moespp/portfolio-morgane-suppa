@@ -280,5 +280,23 @@
                 }
             }
         }
+    },
+
+    "legalMention": {
+        "title": "Mentions légales",
+        "hebergement": {
+            "title": "Hebergement",
+            "content": [
+                "Le présent site web est hébergé par la société Hostinger.",
+                "Siège social : 61 Lordou Vironos Street, 6023 Larnaca, Chypre."
+            ]
+        },
+        "creation": {
+            "title": "Creation et realisation",
+            "content": [
+                "Le présent site est une création AM-Production"
+            ],
+            "link": "alexymartinetprod.com"
+        }
     }
 }
