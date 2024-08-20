@@ -150,6 +150,14 @@ const projects: ProjectDTO[] = [
       gameplayImageCard4: "../img/project/inferno/Slide1.png",
     },
   },
+  {
+    id: "6",
+    title: "Key Frame - Le Comte De Monte-Cristo (Pratice)",
+    img: "./img/project/MonteCristo/Card.png",
+    type: "Perso",
+    tags: ["Artiste"],
+    externalLink: "https://www.artstation.com/artwork/P6aAvr",
+  },
 ];
 
 export default projects;
