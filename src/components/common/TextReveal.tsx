@@ -1,94 +1,98 @@
 import React, { useEffect, useRef } from "react";
-import gsap from "gsap";
+import { gsap } from "gsap";
 
 interface TextRevealProps {
   words: string[];
+  duration: number; // Duration each word should be displayed (in seconds)
 }
 
-const TextReveal: React.FC<TextRevealProps> = ({ words }) => {
-  const textRef = useRef<HTMLDivElement>(null);
-  const tl = useRef<GSAPTimeline>(
-    gsap.timeline({ repeat: -1, repeatDelay: 1 })
-  );
+const TextReveal: React.FC<TextRevealProps> = ({ words, duration }) => {
+  const textRef = useRef<HTMLDivElement | null>(null);
+  const containerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    const textEl = textRef.current;
-    if (!textEl) return;
+    if (!textRef.current || !containerRef.current) return;
 
-    words.forEach((word, index) => {
-      const wordContainer = document.createElement("div");
-      wordContainer.style.display = "inline-block";
-      wordContainer.style.position = "absolute";
-      wordContainer.style.opacity = "0";
-      wordContainer.style.whiteSpace = "nowrap";
-
-      word.split("").forEach((letter, letterIndex) => {
-        const letterSpan = document.createElement("span");
-        letterSpan.textContent = letter;
-        letterSpan.style.display = "inline-block";
-        letterSpan.style.position = "relative";
-        letterSpan.style.transform = "translateY(100%)";
-        wordContainer.appendChild(letterSpan);
-
-        tl.current.to(
-          letterSpan,
-          {
-            opacity: 1,
-            y: "0%",
-            duration: 0.4,
-            ease: "power2.out",
-            transform: "translateY(0%)",
-          },
-          index * 1.5 + letterIndex * 0.05
-        );
-      });
-
-      tl.current.to(
-        wordContainer,
-        {
-          opacity: 1,
-          duration: 0.1,
-        },
-        index * 1.5
-      );
-
-      tl.current.to(
-        wordContainer,
-        {
-          opacity: 0,
-          y: "-100%",
-          duration: 0.5,
-          delay: 1,
-        },
-        index * 1.5 + word.length * 0.05
-      );
-
-      textEl.appendChild(wordContainer);
+    const tl = gsap.timeline({
+      repeat: -1,
+      defaults: { ease: "power2.inOut" },
     });
-  }, [words]);
+
+    words.forEach((word) => {
+      tl.call(() => {
+        if (textRef.current) {
+          textRef.current.innerHTML = ""; // Clear the existing letters before the next word
+
+          const letters = word.split("").map((letter) => {
+            const span = document.createElement("span");
+            span.textContent = letter;
+            span.style.display = "inline-block";
+            span.style.opacity = "0";
+            span.style.transform = "translateY(20px)";
+            textRef.current!.appendChild(span);
+            return span;
+          });
+
+          const totalWidth = textRef.current.offsetWidth;
+          gsap.to(containerRef.current, {
+            width: totalWidth,
+            duration: 0.5,
+          });
+
+          gsap.to(letters, {
+            y: 0,
+            opacity: 1,
+            duration: 0.5,
+            stagger: 0.05, // Stagger effect for letters
+          });
+        }
+      })
+        .to(textRef.current, {
+          duration: duration - 1, // Hold the word in place
+        })
+        .to(textRef.current!.querySelectorAll("span"), {
+          y: -20, // Move letters upwards
+          opacity: 0,
+          duration: 0.5,
+          stagger: 0.05, // Stagger effect for letters on exit
+        })
+        .call(() => {
+          if (containerRef.current) {
+            gsap.to(containerRef.current, {
+              width: 0,
+              duration: 0.5,
+            });
+          }
+        });
+    });
+
+    return () => {
+      tl.kill(); // Clean up the timeline on unmount
+    };
+  }, [words, duration]);
 
   return (
     <div
+      className="flex gap-1 h-[33px]"
       style={{
-        position: "relative",
-        display: "inline-block",
+        fontSize: "24px",
+        fontWeight: "bold",
         overflow: "hidden",
-        verticalAlign: "top",
+        whiteSpace: "nowrap",
       }}
     >
-      <span>Je suis </span>
+      Je suis{" "}
       <div
-        ref={textRef}
+        ref={containerRef}
         style={{
           display: "inline-block",
-          position: "relative",
-          height: "1em",
-          width: "10rem",
-          lineHeight: "1em",
-          verticalAlign: "top",
-          color: "black",
+          whiteSpace: "nowrap",
+          overflow: "hidden",
+          width: 0, // Initial width set to 0 for animation
         }}
-      />
+      >
+        <div ref={textRef} style={{ display: "inline-block" }} />
+      </div>
     </div>
   );
 };

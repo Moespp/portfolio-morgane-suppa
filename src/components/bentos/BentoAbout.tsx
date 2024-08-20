@@ -24,7 +24,10 @@ const BentoAbout = () => {
         {t("home.hero.title")}
       </h1>
       <div className="w-24 h-[2px] bg-black" />
-      <TextReveal words={["designer", "level art", "developer", "artist"]} />
+      <TextReveal
+        words={["level-designer", "game-designer", "artiste", "auteur"]}
+        duration={3}
+      />
       <div className="flex flex-col gap-4">
         <p className="text-sm">{t("home.hero.description")}</p>
         <div
