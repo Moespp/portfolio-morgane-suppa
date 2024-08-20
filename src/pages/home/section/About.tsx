@@ -71,7 +71,7 @@ const SectionAbout = () => {
           >
             <div className="flex flex-row gap-4 w-full items-center justify-between">
               <p className="text-sm font-semibold">
-                {t("home.about.bento2.link")}
+                {t("home.about.bento3.title")}
               </p>
               <LinksIcons />
             </div>

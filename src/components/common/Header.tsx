@@ -69,7 +69,7 @@ const Header = () => {
       className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 py-4 sm:px-6 lg:px-8 transition-all duration-300 ${activeLink ? "bg-gradient-to-b from-white to-transparent" : ""}`}
     >
       <h1
-        className={`sm:text-2xl text-xl font-extrabold leading-7 text-black uppercase`}
+        className={`sm:text-2xl text-xl font-extrabold leading-7 text-black hover:text-primary transition-all duration-300 cursor-pointer uppercase`}
         onClick={() => clickLogo()}
       >
         Morgane Suppa
