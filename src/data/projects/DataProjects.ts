@@ -81,7 +81,7 @@ const projects: ProjectDTO[] = [
     type: "Perso",
     tags: ["Level Designer", "Game Design"],
     page: {
-      backgroundImage: "../img/project/echoes/Cinématique1.gif",
+      backgroundImage: "../img/project/echoes/Cinématique.gif",
       moteur: "Unreal Engine 4.27",
       tools: "Miro, Trello, Discord",
       plateforme: ["Windows"],
