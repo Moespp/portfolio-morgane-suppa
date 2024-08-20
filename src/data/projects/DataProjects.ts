@@ -77,11 +77,11 @@ const projects: ProjectDTO[] = [
     id: "3",
     title: "Echoes of the restless",
     translation: "projects.echoes",
-    img: "./img/project/echoes/Cinématique1.gif",
+    img: "./img/project/echoes/ECHOESOFTHERESTLESS.png",
     type: "Perso",
     tags: ["Level Designer", "Game Design"],
     page: {
-      backgroundImage: "../img/project/echoes/IMG_9372.jpg",
+      backgroundImage: "../img/project/echoes/Cinématique1.gif",
       moteur: "Unreal Engine 4.27",
       tools: "Miro, Trello, Discord",
       plateforme: ["Windows"],

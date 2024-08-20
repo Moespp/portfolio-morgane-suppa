@@ -3,7 +3,7 @@ import "../../styles/button-styled.css";
 
 interface ButtonStyledProps {
   label: string;
-  icon: IconProps;
+  icon?: IconProps;
   onClick?: () => void;
   className?: string;
 }
@@ -16,9 +16,11 @@ const ButtonStyled = ({
 }: ButtonStyledProps) => {
   return (
     <button className={`button-styled ${className}`} onClick={onClick}>
-      <span className="text-sm">
-        <Icon {...icon} />
-      </span>
+      {icon && (
+        <span className="text-sm">
+          <Icon {...icon} />
+        </span>
+      )}
       <p>{label}</p>
     </button>
   );

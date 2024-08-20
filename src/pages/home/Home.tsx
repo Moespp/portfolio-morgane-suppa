@@ -18,7 +18,7 @@ const Home = () => {
   const closeModal = () => setModalIsOpen(false);
 
   const dowloadPdf = () => {
-    console.log("Download PDF");
+    window.open("./pdf/Morgane_Suppa_CV.pdf");
   };
 
   useEffect(() => {
@@ -58,7 +58,7 @@ const Home = () => {
             "bg-white2 rounded-lg border-2 border-gray-200 shadow-lg px-8 py-6 w-fit flex flex-col gap-8 fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
           }
         >
-          <PdfViewer fileUrl="./pdf/CV_Alexy_MARTINET.pdf" />
+          <PdfViewer fileUrl="./pdf/Morgane_Suppa_CV.pdf" />
           {/* Button télécharger le CV */}
           <div className="flex justify-center gap-8">
             <ButtonStyled

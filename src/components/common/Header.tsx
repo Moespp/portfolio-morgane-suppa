@@ -1,8 +1,21 @@
-import { useCallback } from "react";
-import Button from "./Button";
+import { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import ButtonStyled from "./ButtonStyled";
 
 const Header = () => {
+  const [IsMobile, setIsMobile] = useState(window.innerWidth > 768);
+
+  const handleResize = () => {
+    setIsMobile(window.innerWidth > 768);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const clickLogo = useCallback(() => {
     const page = window.location.pathname;
     if (page === "/") {
@@ -31,10 +44,12 @@ const Header = () => {
         >
           Acceuil
         </Link>
-        <Button
-          onClick={() => window.open("mailto:morgane.suppa.pro@gmail.com")}
-          label="Contact"
-        />
+        {IsMobile ? (
+          <ButtonStyled
+            onClick={() => window.open("mailto:morgane.suppa.pro@gmail.com")}
+            label="Contact"
+          />
+        ) : null}
       </div>
     </header>
   );

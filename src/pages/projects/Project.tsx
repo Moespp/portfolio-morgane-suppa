@@ -64,15 +64,12 @@ const Project = () => {
     };
   }, []);
 
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, []);
+
   // Chemin de traduction
   const translateProjectPath = `${project?.translation}`;
-
-  // Affichage des chemins pour débogage
-  console.log("translateProjectPath:", translateProjectPath);
-  console.log(
-    "Conception path:",
-    `${translateProjectPath}.conception.description`
-  );
 
   const conceptionDesc = t(`${translateProjectPath}.conception.description`, {
     returnObjects: true,
@@ -194,14 +191,15 @@ const Project = () => {
             </Bento>
           </div>
         </section>
-        <section className="flex flex-col gap-24 justify-start px-4 sm:px-10 max-w-[700px] w-full">
+        <section className="flex flex-col gap-24 justify-start px-4 sm:px-10 max-w-[1500px] mx-auto w-full">
           {/* projet suivant */}
-          <div>
+          <div className="max-w-[700px]">
             <h3 className="sm:text-xl text-lg font-bold mb-2">
               {t("projects.next_project")}
             </h3>
             <Link
               to={`/project/${nextProject?.id}`}
+              onClick={() => window.scrollTo({ top: 0 })}
               className="w-fit flex gap-4 items-end hover:gap-8 [&>svg]:hover:rotate-0 transition-all duration-300"
             >
               <h2 className="text-2xl sm:text-4xl font-semibold">
@@ -215,7 +213,7 @@ const Project = () => {
               {/* ArrowRight */}
             </Link>
           </div>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 max-w-[700px]">
             <h3 className="sm:text-4xl text-2xl font-bold m-0">
               {t("projects.collaborate.title")}
             </h3>
