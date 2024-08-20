@@ -29,6 +29,7 @@ const TextReveal: React.FC<TextRevealProps> = ({ words, duration }) => {
             span.style.display = "inline-block";
             span.style.opacity = "0";
             span.style.transform = "translateY(20px)";
+            span.style.color = "#a46552";
             textRef.current!.appendChild(span);
             return span;
           });
