@@ -12,6 +12,8 @@ const Header = () => {
     }
   }, []);
 
+  const goToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
       <h1
@@ -24,6 +26,7 @@ const Header = () => {
       <div className="flex items-center gap-4">
         <Link
           to="/"
+          onClick={() => goToTop()}
           className="text-sm font-semibold leading-6 text-black hover:text-primary transition-all duration-300"
         >
           Acceuil

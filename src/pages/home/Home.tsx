@@ -7,7 +7,7 @@ import SectionAbout from "./section/About";
 import Hero from "./section/Hero";
 import ListProjects from "./section/ListProjects";
 import Modal from "react-modal";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import PdfViewer from "../../components/pdf/PdfViewer";
 
 const Home = () => {
@@ -20,6 +20,10 @@ const Home = () => {
   const dowloadPdf = () => {
     console.log("Download PDF");
   };
+
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, []);
 
   return (
     <>

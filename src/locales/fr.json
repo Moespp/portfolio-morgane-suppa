@@ -7,6 +7,10 @@
     "header": {
         "title": "MORGANE SUPPA"
     },
+    "footer": {
+        "legalMentions": "Mentions légales",
+        "copyright": "© 2023 Morgane Suppa"
+    },
     "home": {
         "hero": {
             "title": "MORGANE SUPPA",
@@ -53,6 +57,7 @@
             "title": "Ensemble collaborons",
             "description": "Collaborate avec moi pour créer des projets"
         },
+
         "noreya": {
             "hero": {
                 "title": "Noreya: Le projet d'or",
@@ -106,6 +111,172 @@
                 "card4": {
                     "title": "Titre 4",
                     "description": "Le jeu alterne entre des phases d'exploration, de puzzles/challenges et de combats de boss, offrant une expérience variée et engageante. Les joueurs naviguent à travers six biomes distincts, chacun doté d'une direction artistique unique et soigneusement élaborée en cohérence avec le level design. Ces environnements diversifiés sont non seulement visuellement captivants mais aussi conçus pour enrichir le gameplay. Cette combinaison de gameplay varié, soutenue par une esthétique immersive, crée une expérience de jeu satisfaisante et mémorable."
+                }
+            }
+        },
+        "break": {
+            "hero": {
+                "title": "Break in the loop",
+                "description": "Break in the loop est un escape game VR de cambriolage dans lequel les joueurs vont devoir travailler en collaboration afin de récolter un gros butin à Chicago, durant les années 20 dans un célèbre Speakeasy.",
+                "works": "Pour ce projet j'ai travaillé sur le Game & Level Design ainsi que le Level Art."
+            },
+
+            "conception": {
+                "title": "Conception",
+                "description": [
+                    "Conception des plans de la pièce vue du haut.",
+                    "Réflexion sur les éléments de gameplay à intégrer.",
+                    "Placement des événements et définition de l’ordre des énigmes.",
+                    "Amélioration de l’interactivité et du divertissement du niveau.",
+                    "Recherche approfondie du contexte historique et architectural.",
+                    "Références à des films et livres marquants."
+                ]
+            },
+            "blockout": {
+                "title": "Blockout",
+                "description": [
+                    "Travail sur les niveaux en blocs gris pour les tests VR.",
+                    "Assurer la jouabilités pour les personnes de toutes tailles à l’intérieur du niveau.",
+                    "Test des énigmes et vérification de leur fonctionnement dans l’espace prévu.",
+                    "Playtest et correction des bugs.",
+                    "Dessin des plans d’intérieur selon les plans initiaux."
+                ]
+            },
+            "rendu": {
+                "title": "Rendu",
+                "description": [
+                    "Collaboration avec le pôle ART.",
+                    "Retours sur les assets et props.",
+                    "Modélisation des meubles et props utiles aux niveaux.",
+                    "Remplacement des blocs mesh temporaires.",
+                    "Attention particulière portée à l’éclairage pour créer l’ambiance immersive.",
+                    "Corrections de bugs et artefacts visuels."
+                ]
+            },
+            "gameplay": {
+                "card1": {
+                    "description": "Les joueurs doivent trouver l'entrée du speakeasy dissimulé dans la pièce de la boutique du tailleur. Après avoir résolu une série d'énigmes, ils découvriront le bras du mannequin. En plaçant ce bras au bon endroit, ils pourront enclencher le mécanisme qui révèle un escalier caché, leur permettant d'accéder au speakeasy secret."
+                },
+                "card2": {
+                    "description": "Les joueurs doivent trouver un chemin d'accès vers la distillerie, une sous-zone du bar clandestin. Les joueurs à l'extérieur du casque donnent des instructions aux joueurs cambrioleurs. Ils découvriront des indices sur une bouteille de champagne donnant l'ordre des notes pour le piano. Les joueurs devront continuer à explorer pour trouver l'entrée vers le bureau du patron, où le butin est caché."
+                },
+                "card3": {
+                    "description": "Les joueurs sont proches de leur objectif final. Le joueur équipé du casque VR doit maintenant donner des instructions précises aux joueurs à l'extérieur pour qu'ils puissent résoudre une énigme hors VR. Cette énigme fournira le code nécessaire pour ouvrir le coffre. Cette phase du jeu met fortement l'accent sur la coopération, exigeant une communication efficace entre les joueurs pour réussir à déverrouiller le coffre et atteindre leur butin."
+                },
+                "card4": {
+                    "title": "Titre 4",
+                    "description": "Le gameplay du jeu consiste à fouiller les différentes salles pour découvrir des énigmes et des indices. Ces énigmes, une fois résolues, permettent d’avancer à la pièce suivante, et d’atteindre le butin. Les joueurs ne portant pas le casque possèdent de leur côté plusieurs indices à analyser en corrélation avec ceux trouvables dans le jeu. En mettant en commun leurs indices, ils peuvent en déduire la marche à suivre pour résoudre les énigmes."
+                }
+            }
+        },
+        "echoes": {
+            "hero": {
+                "title": "Echoes of the restless",
+                "description": "Echoes of the restless est un platformer où vous incarnez une entité revenue d'entre les morts qui devra usé d'ingéniosité pour voyager entre les mondes de la plus curieuse des façons : trouver comment mourir.",
+                "works": "Pour ce projet j'ai travaillé sur le Game & Level Design, le Narrative Design ainsi que le Level Art."
+            },
+
+            "conception": {
+                "title": "Conception",
+                "description": [
+                    "Conception schémas macro, middle et micro des trois niveaux.",
+                    "Création des landmark, hot spot et focal point.",
+                    "Placement des événements (teasings, cinématiques et autres éléments de narration.)",
+                    "Gérer le rythme et la difficulté des niveaux.",
+                    "Recherche approfondie du contexte historique et architectural.",
+                    "Références à des films et livres marquants."
+                ]
+            },
+            "blockout": {
+                "title": "Blockout",
+                "description": [
+                    "Travail sur les niveaux en blocs gris pour les playtests et test des mécaniques.",
+                    "Itérations.",
+                    "Assurer la jouabilités des niveaux et la transition entre eux.",
+                    "Intégration des différents challenges par niveaux.",
+                    "Test des différents éléments de gameplay et vérification de leur fonctionnement dans les challenges.",
+                    "Gestion du Level Streaming.",
+                    "Tests pour s'assurer de la bonne navigation dans le jeu.",
+                    "Tests de tous les niveaux pour assurer le bon déroulement du jeu et la faisabilité des challenges.",
+                    "Correction des bugs et glitch des niveaux."
+                ]
+            },
+            "rendu": {
+                "title": "Rendu",
+                "description": [
+                    "Intégration des assets à la place des blocks de gris.",
+                    "Créations d'endroits mémorables pour le joueur. (hotspot)",
+                    "Raconter l'histoire du jeu à travers l'environnement.",
+                    "Placement stratégique d'objets interactifs pour offrir une expérience de jeu immersive.",
+                    "Équilibrage de la luminosité et effets visuels pour assurer une ambiance cohérente et agréable.",
+                    "Tests pour s'assurer que l'environnement répond aux attentes des joueurs et ne ralentit pas le jeu.",
+                    "Intégration de tous les sons et musiques du jeu.",
+                    "Gérer la partie Quality Assurance (QA).",
+                    "Bug fix."
+                ]
+            },
+            "gameplay": {
+                "card1": {
+                    "description": "La mécanique de désincarnation est essentielle pour progresser. Ici, le joueur rencontre une créature effrayée, qui se cache dans un buisson. Pour progresser, le joueur doit attendre que la créature sorte de sa cachette, puis lui sauter dessus. Cette action débloque un passage précédemment inaccessible dans l'autre monde. Cette mécanique encourage la réflexion et l'observation de l'environnement."
+                },
+                "card2": {
+                    "description": "Le jeu est ponctué de découverte de lieux narratifs. Ces moments permettent à Cethlenn de raconter l'histoire des lieux et d'approfondir le contexte de leur quête commune. Les joueurs en apprennent davantage sur l'histoire du monde. Ces moments narratifs ajoutent une dimension de profondeur à l'exploration, offrant une pause bienvenue tout en enrichissant l'expérience du jeu."
+                },
+                "card3": {
+                    "description": "à remplir"
+                },
+                "card4": {
+                    "title": "Titre 4",
+                    "description": "Chaque niveau est décomposé en trois partie : Le jeu propose une progression à travers trois phases à travers deux mondes différents (divin / fomoire) : Turoriel, où le joueur se familiarise avec les mécaniques; Pratique, qui permet au joueur de perfectionner ses compétences nouvellement acquises ; et Maîtrise, où le joueur est mis à l'épreuve sur tout ce qu'il a appris au cours du niveau. La mécanique principale est de trouver un moyen de se désincarner pour changer de monde et découvrir des passages pour progresser. L'histoire ajoute une couche narrative, renforçant l'engagement du joueur à travers la thématique de la rédemption."
+                }
+            }
+        },
+        "inferno": {
+            "hero": {
+                "title": "Inferno's descent",
+                "description": "Inferno's Descent est un une Proof Of Concept d'un jeu de type T-RPG d'une camapgne JDR inspiré du livre Donjons et Dragons : Descent into Avernus.",
+                "works": "Pour ce projet j'ai travaillé sur le Game & Level Design, le Narrative Design ainsi que le Level Art."
+            },
+
+            "conception": {
+                "title": "Conception",
+                "description": [
+                    "Conception schémas de la zone du hangar des machines.",
+                    "Conception des différents chemins et des interactions.",
+                    "Placement des événements narratifs (Tormentor, Panneaux de contrôle, Jets de dés, cinématiques etc...)",
+                    "GérGérer l'équilibre de la zone d'apprentissage.",
+                    "Amélioration de la fluidité de l'exploration et de l'interactivité de la zone."
+                ]
+            },
+            "blockout": {
+                "title": "Blockout",
+                "description": [
+                    "Travail sur les niveaux en blocs gris.",
+                    "Itérations.",
+                    "Assurer la jouabilités des niveaux."
+                ]
+            },
+            "rendu": {
+                "title": "Rendu",
+                "description": [
+                    "Recherche d'assets gratuits sur l'epic store.",
+                    "Placement et décoration des assets.",
+                    "Modification des fonctionnalités intégré par le développeur dans la map (événements, narration etc.."
+                ]
+            },
+            "gameplay": {
+                "card1": {
+                    "description": "Le jeu offre une riche expérience d'exploration, avec de vastes zones à découvrir et de nombreux secrets à dévoiler. Au cours de leur aventure, les joueurs devront affronter une multitude d'ennemis variés. Les joueurs devront naviguer habilement à travers des environnements complexes tout en surmontant des obstacles pour progresser dans le jeu."
+                },
+                "card2": {
+                    "description": "à remplir"
+                },
+                "card3": {
+                    "description": "La caméra permet aux joueurs de passer d'une vue du dessus, rappelant les jeux de plateau classiques, à une vue immersive. Cette transition entre les perspectives donne aux joueurs un contrôle sur leur expérience visuelle. Inspirée par la caméra de BG3, cette fonctionnalité permet d'apprécier la stratégie et les détails du jeu. La vue du dessus est idéale pour planifier des actions et naviguer, tandis que la vue rapprochée permet d'apprécier les détails."
+                },
+                "card4": {
+                    "title": "Titre 4",
+                    "description": "Chaque niveau est décomposé en trois partie : Le jeu propose une progression à travers trois phases à travers deux mondes différents (divin / fomoire) : Turoriel, où le joueur se familiarise avec les mécaniques; Pratique, qui permet au joueur de perfectionner ses compétences nouvellement acquises ; et Maîtrise, où le joueur est mis à l'épreuve sur tout ce qu'il a appris au cours du niveau. La mécanique principale est de trouver un moyen de se désincarner pour changer de monde et découvrir des passages pour progresser. L'histoire ajoute une couche narrative, renforçant l'engagement du joueur à travers la thématique de la rédemption."
                 }
             }
         }

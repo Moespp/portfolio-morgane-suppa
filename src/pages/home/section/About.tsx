@@ -27,7 +27,7 @@ const SectionAbout = () => {
   return (
     <section
       id="section-about"
-      className="flex flex-col sm:gap-24 gap-8 items-center justify-center min-h-screen rounded-xl max-w-[1500px] mx-auto px-4 sm:px-10 sm:py-16 py-8"
+      className="flex flex-col sm:gap-24 gap-8 items-center justify-center rounded-xl max-w-[1500px] mx-auto px-4 sm:px-10 sm:py-16 py-8"
     >
       {/* title about me */}
       <Title text="À propos de moi" />

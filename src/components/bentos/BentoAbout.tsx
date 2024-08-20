@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { ChevronDown } from "lucide-react";
+import TextReveal from "../common/TextReveal";
 
 const BentoAbout = () => {
   const { t } = useTranslation();
@@ -23,6 +24,7 @@ const BentoAbout = () => {
         {t("home.hero.title")}
       </h1>
       <div className="w-24 h-[2px] bg-black" />
+      <TextReveal words={["designer", "level art", "developer", "artist"]} />
       <div className="flex flex-col gap-4">
         <p className="text-sm">{t("home.hero.description")}</p>
         <div

@@ -19,16 +19,26 @@ const Project = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const { id } = useParams<{ id: string }>();
-  console.log("id", id);
   const project = projects.find((p) => p.id === id);
 
   const projectIdNumber = stringToNumber(id ?? "0");
 
   const totalProjects = projects.length;
-  const nextProjectIdNumber = (projectIdNumber % totalProjects) + 1;
-  const nextProject = projects.find(
-    (p) => p.id === nextProjectIdNumber.toString()
-  );
+
+  // Find the next valid project
+  const getNextValidProject = (currentId: number) => {
+    let nextId = currentId;
+    for (let i = 0; i < totalProjects; i++) {
+      nextId = (nextId % totalProjects) + 1;
+      const nextProject = projects.find((p) => p.id === nextId.toString());
+      if (nextProject && !nextProject.externalLink) {
+        return nextProject;
+      }
+    }
+    return null; // Return null if no valid next project is found
+  };
+
+  const nextProject = getNextValidProject(projectIdNumber);
 
   const pageContent = project?.page;
 
@@ -90,7 +100,8 @@ const Project = () => {
 
             <Bento className="max-w-[700px]">
               <h1 className="text-4xl font-bold mb-2">{project?.title}</h1>
-              <p>{project?.description}</p>
+              <p>{t(`${translateProjectPath}.hero.description`)}</p>
+              <p>{t(`${translateProjectPath}.hero.works`)}</p>
               <p>Moteur: {pageContent?.moteur}</p>
               <p>Outils: {pageContent?.tools}</p>
               <p>OS: {pageContent?.plateforme.join(", ")}</p>

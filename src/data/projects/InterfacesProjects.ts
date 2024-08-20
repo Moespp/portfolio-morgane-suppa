@@ -16,12 +16,11 @@ export type TagDTO =
 export interface ProjectDTO {
   id: string;
   title: string;
-  translation: string;
+  translation?: string;
   img: string;
-  description: string;
   type: "Pro" | "Perso";
   tags: TagDTO[];
-  link: string;
+  externalLink?: string;
   page?: PageProjectDTO;
 }
 

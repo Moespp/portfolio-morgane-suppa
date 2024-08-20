@@ -9,13 +9,24 @@ interface CardProjectProps {
   image: string;
   tags: TagDTO[];
   type: "Pro" | "Perso";
+  externalLink?: string;
 }
 
-const CardProject = ({ id, title, image, tags, type }: CardProjectProps) => {
+const CardProject = ({
+  id,
+  title,
+  image,
+  tags,
+  type,
+  externalLink,
+}: CardProjectProps) => {
+  const link = externalLink ? externalLink : `/project/${id}`;
+
   return (
     <Link
       className="card-project justify-self-center	w-full"
-      to={`/project/${id}`}
+      to={link}
+      target={`${externalLink ? "_blank" : ""}`}
     >
       <img
         src={image}

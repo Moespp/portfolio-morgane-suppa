@@ -15,6 +15,7 @@ const ListProjects = () => {
             image={project.img}
             tags={project.tags}
             type={project.type}
+            externalLink={project.externalLink}
           />
         ))}
       </div>
