@@ -1,0 +1,28 @@
+.animated-text-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .static-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px; /* Espace entre "Je suis" et les mots animés */
+    opacity: 1; /* Assurez-vous que le texte fixe est visible */
+  }
+  
+  .words-container {
+    display: flex;
+    gap: 10px; /* Espacement entre les mots */
+  }
+  
+  .word {
+    display: inline-flex;
+  }
+  
+  .letter {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0; /* Les lettres sont initialement invisibles */
+  }
+  

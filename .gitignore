@@ -1,6 +1,7 @@
 # Project dependencies
 .cache
 node_modules
+./node_modules
 yarn-error.log
 package-lock.json
 
@@ -9,3 +10,6 @@ package-lock.json
 .DS_Store
 
 .vscode/
+# node_modules
+yarn.lock
+package-lock.json

@@ -1,0 +1,33 @@
+.button-styled {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 90;
+    box-shadow: 10px 6px 0px 0px #000;
+    border: 2px solid #000;
+  }
+  
+  .button-styled:hover {
+    
+    transform: translate(-2px, -5px);
+    box-shadow: 16px 14px 0px 0px #000; 
+  }
+  
+  .button-styled:active {
+    background-color: #e0e0e0;
+  }
+  
+  .button-styled > p {
+    margin: 0;
+  }
