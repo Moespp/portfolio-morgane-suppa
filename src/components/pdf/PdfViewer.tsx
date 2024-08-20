@@ -6,7 +6,7 @@ interface PdfViewerProps {
 }
 
 const PdfViewer = ({ fileUrl }: PdfViewerProps) => {
-  const [page, setPage] = useState(1);
+  const [page, _setPage] = useState(1);
 
   return (
     <div className="pdf-viewer">
