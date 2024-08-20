@@ -127,7 +127,7 @@ const Project = () => {
             width={widthVideo > 1500 ? 1500 : widthVideo}
             height={heightVideo}
             className="px-4 sm:px-10 max-w-[1500px] mx-auto"
-            src="https://www.youtube.com/embed/OWS6J3d5wi4"
+            src={pageContent?.video}
             title="Noreya: The Gold Project - Release Trailer - Coming on June 21St to Steam"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           ></iframe>
