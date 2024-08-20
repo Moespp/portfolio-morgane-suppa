@@ -1,5 +1,302 @@
 {
+    "common": {
+        "close": "Close window",
+        "back": "Back",
+        "contact": "Contact"
+    },
+    "header": {
+        "title": "MORGANE SUPPA"
+    },
+    "footer": {
+        "legalMentions": "Legal mentions",
+        "copyright": "© 2023 Morgane Suppa"
+    },
     "home": {
-        "title": "Home"
+        "hero": {
+            "title": "MORGANE SUPPA",
+            "description": "From my earliest steps, I have always been drawn to art and video games. Level Design and Narrative Design were immediately the areas where I felt most comfortable, followed by environmental storytelling and Level Art. My artistic profile merges with my technical skills. My artistic abilities are the foundation of my collaborations with other teams, a combination I consider essential to bring projects to life. I am fortunate to love my job, and it is a pleasure for me to share with you what I have accomplished.",
+            "more": "Learn more",
+            "dowload": "Download my CV",
+            "visualization": "View my CV",
+            "contact": "Contact me"
+        },
+        "about": {
+            "title": "About me",
+            "bento1": [
+                "With initial experiences in the gaming industry, I started my career in an Escape Room (Secret Door) where I worked on 4 competitive escape rooms (a first in France) and was also a Game Master. I continued my career at the independent Toulouse-based studio Dreamirl as well as the Bordeaux-based studio HammerHead.",
+                "In parallel with my career in video games, I am the author and illustrator of a visual novel entitled A Crow's Nest, an adventure in a Dark Fantasy world.",
+                "I also draw for role-playing game campaigns and create my own campaigns within universes where I have created the entire world-building.",
+                "Each step has shaped my passion and honed my skills."
+            ],
+            "bento2": {
+                "title": "A few points about me:",
+                "content": [
+                    "Graduated in Game Design and Gamification (2020-2023)",
+                    "Fable The Lost Chapter, Titanfall 2, Ori and The Will Of The Wisps, Apex Legends, Baldur's Gate 3 are my favorite games.",
+                    "Self-taught in drawing for over 15 years, I do both realism and very dark semi-realism.",
+                    "Pianist for over 10 years, I also play guitar, ukulele, and sing.",
+                    "Creator of many Role Play universes on Discord and also a Game Master."
+                ]
+            },
+            "bento3": {
+                "title": "My social networks:"
+            }
+        },
+        "projects": {
+            "title": "My projects"
+        }
+    },
+    "projects": {
+        "sectionTitle": {
+            "trailer": "Trailer",
+            "about": "About",
+            "gameplay": "Gameplay"
+        },
+        "next_project": "Next project",
+        "collaborate": {
+            "title": "Let's collaborate",
+            "description": "Collaborate with me to create projects"
+        },
+
+        "noreya": {
+            "hero": {
+                "title": "Noreya: The Gold Project",
+                "description": "Noreya: The Gold Project is a frantic metroidvania game by the Toulouse-based studio Dreamirl, where players must enter a divine conflict where the choice between gold and light will determine their fate.",
+                "works": "For this project, I worked on Game & Level Design, Narrative Design, and Level Art."
+            },
+
+            "conception": {
+                "title": "Design",
+                "description": [
+                    "Design of macro, middle, and micro maps of the 7 different biomes.",
+                    "Creation of the game's walkthrough.",
+                    "Placement of events (cinematics, chase scenes, enemy waves...).",
+                    "Manage the rhythm and difficulty of the levels.",
+                    "Design of challenges and 'paper' puzzles."
+                ]
+            },
+            "blockout": {
+                "title": "Blockout",
+                "description": [
+                    "Worked on levels with gray blocks for playtests and testing mechanics.",
+                    "Iterations.",
+                    "Ensure playability of levels and transition between them.",
+                    "Test puzzles and verify their functionality in challenges.",
+                    "Collaboration with the DEV team.",
+                    "Integration of features coded by developers into the world (events, monsters, etc.).",
+                    "Playtest and bug fixing."
+                ]
+            },
+            "rendu": {
+                "title": "Rendering",
+                "description": [
+                    "Collaboration with the ART team.",
+                    "Feedback on 2D sprites.",
+                    "Placement and decoration of validated level maps.",
+                    "Special attention to every detail.",
+                    "Feedback on assets and props.",
+                    "Bug fixing."
+                ]
+            },
+            "gameplay": {
+                "card1": {
+                    "description": "The game offers a rich exploration experience, with vast areas to discover and many secrets to uncover. Throughout their adventure, players will have to face a multitude of varied enemies. Players must skillfully navigate through complex environments while overcoming obstacles to progress in the game."
+                },
+                "card2": {
+                    "description": "Players must solve puzzles to advance. For this one, they need to learn to use the ghost (a phantom double) to succeed. The player must solve the puzzle to pass to the other side. By using a prayer stele, they can switch places with their bodily double. The key to this puzzle is to alternate between the two forms to progress."
+                },
+                "card3": {
+                    "description": "Boss fights are divided into multiple phases, each bringing its unique challenges. The final boss of the game marks a return to bullet hell style. Each boss has specific attack patterns, requiring players to constantly adapt their strategies. Noreya's bosses are particularly renowned for their complexity and creativity, with unpredictable attacks, testing both the player's mastery and responsiveness."
+                },
+                "card4": {
+                    "title": "Title 4",
+                    "description": "The game alternates between exploration, puzzle/challenge phases, and boss fights, offering a varied and engaging experience. Players navigate through six distinct biomes, each with a unique artistic direction carefully crafted in coherence with the level design. These diverse environments are not only visually captivating but also designed to enrich the gameplay. This combination of varied gameplay, supported by an immersive aesthetic, creates a satisfying and memorable gaming experience."
+                }
+            }
+        },
+        "break": {
+            "hero": {
+                "title": "Break in the loop",
+                "description": "Break in the loop is a VR heist escape game where players must work together to gather a big loot in 1920s Chicago, in a famous Speakeasy.",
+                "works": "For this project, I worked on Game & Level Design as well as Level Art."
+            },
+
+            "conception": {
+                "title": "Design",
+                "description": [
+                    "Design of the room layout from a top-down view.",
+                    "Consideration of gameplay elements to be integrated.",
+                    "Placement of events and definition of the order of puzzles.",
+                    "Enhancement of interactivity and entertainment within the level.",
+                    "In-depth research on historical and architectural context.",
+                    "References to notable films and books."
+                ]
+            },
+            "blockout": {
+                "title": "Blockout",
+                "description": [
+                    "Worked on levels with gray blocks for VR testing.",
+                    "Ensure playability for people of all sizes within the level.",
+                    "Test puzzles and verify their functionality within the intended space.",
+                    "Playtest and bug fixing.",
+                    "Design of interior layouts based on initial plans."
+                ]
+            },
+            "rendu": {
+                "title": "Rendering",
+                "description": [
+                    "Collaboration with the ART team.",
+                    "Feedback on assets and props.",
+                    "Modeling of furniture and props needed for levels.",
+                    "Replacement of temporary mesh blocks.",
+                    "Special attention to lighting to create an immersive atmosphere.",
+                    "Bug fixing and visual artifact corrections."
+                ]
+            },
+            "gameplay": {
+                "card1": {
+                    "description": "Players must find the entrance to the speakeasy hidden in the tailor shop's room. After solving a series of puzzles, they will discover the mannequin's arm. By placing this arm in the right place, they can trigger the mechanism that reveals a hidden staircase, allowing them to access the secret speakeasy."
+                },
+                "card2": {
+                    "description": "Players must find a way to access the distillery, a sub-area of the speakeasy. Players outside the headset give instructions to the burglars. They will discover clues on a champagne bottle indicating the order of the notes for the piano. Players must continue exploring to find the entrance to the boss's office, where the loot is hidden."
+                },
+                "card3": {
+                    "description": "Players are close to their final objective. The player wearing the VR headset must now give precise instructions to the players outside so they can solve an off-VR puzzle. This puzzle will provide the necessary code to open the safe. This phase of the game heavily emphasizes cooperation, requiring effective communication between players to successfully unlock the safe and reach their loot."
+                },
+                "card4": {
+                    "title": "Title 4",
+                    "description": "The game's gameplay consists of searching through different rooms to discover puzzles and clues. These puzzles, once solved, allow players to progress to the next room and reach the loot. Players not wearing the headset have their own set of clues to analyze in correlation with those found in the game. By pooling their clues together, they can deduce the steps needed to solve the puzzles."
+                }
+            }
+        },
+        "echoes": {
+            "hero": {
+                "title": "Echoes of the restless",
+                "description": "Echoes of the restless is a platformer where you play as an entity returned from the dead who must use ingenuity to travel between worlds in the most curious of ways: finding out how to die.",
+                "works": "For this project, I worked on Game & Level Design, Narrative Design, and Level Art."
+            },
+
+            "conception": {
+                "title": "Design",
+                "description": [
+                    "Design of macro, middle, and micro maps of the three levels.",
+                    "Creation of landmarks, hot spots, and focal points.",
+                    "Placement of events (teasers, cinematics, and other narrative elements).",
+                    "Manage the rhythm and difficulty of the levels.",
+                    "In-depth research on historical and architectural context.",
+                    "References to notable films and books."
+                ]
+            },
+            "blockout": {
+                "title": "Blockout",
+                "description": [
+                    "Worked on levels with gray blocks for playtests and testing mechanics.",
+                    "Iterations.",
+                    "Ensure playability of levels and transition between them.",
+                    "Integration of various challenges per level.",
+                    "Test various gameplay elements and verify their functionality in challenges.",
+                    "Level Streaming management.",
+                    "Tests to ensure good navigation in the game.",
+                    "Tests of all levels to ensure smooth gameplay and feasibility of challenges.",
+                    "Bug and glitch fixing in levels."
+                ]
+            },
+            "rendu": {
+                "title": "Rendering",
+                "description": [
+                    "Integration of assets instead of gray blocks.",
+                    "Creation of memorable places for the player (hotspot).",
+                    "Telling the game's story through the environment.",
+                    "Strategic placement of interactive objects to provide an immersive gameplay experience.",
+                    "Balancing brightness and visual effects to ensure a coherent and pleasant atmosphere.",
+                    "Tests to ensure that the environment meets player expectations and does not slow down the game.",
+                    "Integration of all game sounds and music.",
+                    "Quality Assurance (QA) management.",
+                    "Bug fixing."
+                ]
+            },
+            "gameplay": {
+                "card1": {
+                    "description": "The disincarnation mechanic is essential for progressing. Here, the player encounters a frightened creature, hiding in a bush. To progress, the player must wait for the creature to come out of hiding and then jump on it. This action unlocks a previously inaccessible passage in the other world. This mechanic encourages reflection and observation of the environment."
+                },
+                "card2": {
+                    "description": "The game is punctuated by the discovery of narrative locations. These moments allow Cethlenn to tell the story of the places and deepen the context of their common quest. Players learn more about the world's history. These narrative moments add a layer of depth to the exploration, offering a welcome break while enriching the gameplay experience."
+                },
+                "card3": {
+                    "description": "To be filled"
+                },
+                "card4": {
+                    "title": "Title 4",
+                    "description": "Each level is divided into three parts: The game offers progression through three phases across two different worlds (divine/fomorian): Tutorial, where the player familiarizes themselves with the mechanics; Practice, which allows the player to perfect newly acquired skills; and Mastery, where the player is tested on everything they have learned throughout the level. The main mechanic is to find a way to disincarnate to switch worlds and discover passages to progress. The story adds a narrative layer, reinforcing player engagement through the theme of redemption."
+                }
+            }
+        },
+        "inferno": {
+            "hero": {
+                "title": "Inferno's descent",
+                "description": "Inferno's Descent is a Proof Of Concept of a T-RPG game inspired by the Dungeons and Dragons book: Descent into Avernus.",
+                "works": "For this project, I worked on Game & Level Design, Narrative Design, and Level Art."
+            },
+
+            "conception": {
+                "title": "Design",
+                "description": [
+                    "Design of the hangar zone schematic.",
+                    "Design of different paths and interactions.",
+                    "Placement of narrative events (Tormentor, Control Panels, Dice Rolls, cinematics, etc...).",
+                    "Manage the balance of the learning zone.",
+                    "Improvement of the fluidity of exploration and interactivity within the zone."
+                ]
+            },
+            "blockout": {
+                "title": "Blockout",
+                "description": [
+                    "Worked on levels with gray blocks.",
+                    "Iterations.",
+                    "Ensure playability of levels."
+                ]
+            },
+            "rendu": {
+                "title": "Rendering",
+                "description": [
+                    "Search for free assets on the epic store.",
+                    "Placement and decoration of assets.",
+                    "Modification of features integrated by the developer in the map (events, narration, etc.)."
+                ]
+            },
+            "gameplay": {
+                "card1": {
+                    "description": "The game offers a rich exploration experience, with vast areas to discover and many secrets to uncover. Throughout their adventure, players will have to face a multitude of varied enemies. Players must skillfully navigate through complex environments while overcoming obstacles to progress in the game."
+                },
+                "card2": {
+                    "description": "To be filled"
+                },
+                "card3": {
+                    "description": "The camera allows players to switch from a top-down view, reminiscent of classic board games, to an immersive view. This transition between perspectives gives players control over their visual experience. Inspired by the BG3 camera, this feature allows players to appreciate the strategy and details of the game. The top-down view is ideal for planning actions and navigating, while the close-up view allows for appreciating the details."
+                },
+                "card4": {
+                    "title": "Title 4",
+                    "description": "Each level is divided into three parts: The game offers progression through three phases across two different worlds (divine/fomorian): Tutorial, where the player familiarizes themselves with the mechanics; Practice, which allows the player to perfect newly acquired skills; and Mastery, where the player is tested on everything they have learned throughout the level. The main mechanic is to find a way to disincarnate to switch worlds and discover passages to progress. The story adds a narrative layer, reinforcing player engagement through the theme of redemption."
+                }
+            }
+        }
+    },
+
+    "legalMention": {
+        "title": "Legal mentions",
+        "hebergement": {
+            "title": "Hosting",
+            "content": [
+                "This website is hosted by Hostinger.",
+                "Headquarters: 61 Lordou Vironos Street, 6023 Larnaca, Cyprus."
+            ]
+        },
+        "creation": {
+            "title": "Creation and realization",
+            "content": [
+                "This website is a creation of AM-Production"
+            ],
+            "link": "alexymartinetprod.com"
+        }
     }
 }
