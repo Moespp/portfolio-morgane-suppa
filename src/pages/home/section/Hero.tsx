@@ -8,7 +8,7 @@ const Hero = ({ videoSrc, children, className }: HeroProps) => {
   return (
     <section
       className={`relative flex flex-col gap-4 justify-center w-full min-h-[100vh] px-4 py-24 ${className}`}
-      id="hero"
+      id="Hero"
     >
       <img
         src={videoSrc}

@@ -4,8 +4,9 @@ import { useTranslation } from "react-i18next";
 import ButtonStyled from "./ButtonStyled";
 
 const Header = () => {
-  const [IsMobile, setIsMobile] = useState(window.innerWidth > 768);
   const { i18n } = useTranslation();
+  const [IsMobile, setIsMobile] = useState(window.innerWidth > 768);
+  const [activeLink, setActiveLink] = useState<string | null>(null);
 
   const handleResize = () => {
     setIsMobile(window.innerWidth > 768);
@@ -34,10 +35,41 @@ const Header = () => {
     i18n.changeLanguage(newLanguage);
   };
 
+  const handleScroll = () => {
+    const sections = ["Hero"];
+    let activeSection = null;
+
+    for (const sectionId of sections) {
+      const section = document.getElementById(sectionId);
+      if (section) {
+        const { top, bottom } = section.getBoundingClientRect();
+        const isVisible = top < 30 && bottom >= 30;
+        if (isVisible) {
+          activeSection = sectionId;
+          break;
+        }
+      }
+    }
+    setActiveLink(activeSection);
+  };
+
+  useEffect(() => {
+    handleScroll();
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 py-4 sm:px-6 lg:px-8 transition-all duration-300 ${activeLink ? "bg-gradient-to-b from-white to-transparent" : ""}`}
+    >
       <h1
-        className="sm:text-2xl text-xl font-extrabold leading-7 text-black uppercase"
+        className={`sm:text-2xl text-xl font-extrabold leading-7 text-black uppercase`}
         onClick={() => clickLogo()}
       >
         Morgane Suppa
@@ -47,13 +79,13 @@ const Header = () => {
         <Link
           to="/"
           onClick={() => goToTop()}
-          className="text-sm font-semibold leading-6 text-black hover:text-primary transition-all duration-300"
+          className={`"text-sm font-bold leading-6 text-black hover:text-primary transition-all duration-300"`}
         >
           Acceuil
         </Link>
         <button
           onClick={toggleLanguage}
-          className="text-sm font-semibold leading-6 text-black hover:text-primary transition-all duration-300 "
+          className="text-sm font-semibold leading-6"
         >
           {i18n.language === "fr" ? (
             <svg
