@@ -22,20 +22,22 @@ const projects: ProjectDTO[] = [
         "../img/project/noreya/Conception3.png",
       ],
       blockoutImage: [
+        "../img/project/noreya/map2.png",
         "../img/project/noreya/blockoutbiome1.png",
         "../img/project/noreya/blockoutbiome2.png",
         "../img/project/noreya/blockoutbiome3.png",
       ],
       renduImage: [
+        "../img/project/noreya/map.png",
         "../img/project/noreya/Rendu.png",
         "../img/project/noreya/Rendu2.png",
         "../img/project/noreya/Rendu3.png",
       ],
-      gameplayImageCard1: "../img/project/noreya/IMG_9372.jpg",
+      gameplayImageCard1: "../img/project/noreya/ExploNoreya.gif",
 
-      gameplayImageCard2: "../img/project/noreya/IMG_9372.jpg",
+      gameplayImageCard2: "../img/project/noreya/PuzzleNoreya.gif",
 
-      gameplayImageCard3: "../img/project/noreya/IMG_9372.jpg",
+      gameplayImageCard3: "../img/project/noreya/SpiderBoss.gif",
       gameplayImageCard4: "../img/project/noreya/IMG_explo.gif",
     },
   },
@@ -62,14 +64,17 @@ const projects: ProjectDTO[] = [
       blockoutImage: [],
       renduImage: [
         "../img/project/break/Rendu.png",
+        "../img/project/break/Tailor.png",
         "../img/project/break/Rendu2.png",
+        "../img/project/break/Distillerie.png",
         "../img/project/break/Rendu3.png",
+        "../img/project/break/Boss.png",
       ],
-      gameplayImageCard1: "../img/project/break/IMG_9372.jpg",
+      gameplayImageCard1: "../img/project/break/E1.gif",
 
-      gameplayImageCard2: "../img/project/break/IMG_9372.jpg",
+      gameplayImageCard2: "../img/project/break/E2.gif",
 
-      gameplayImageCard3: "../img/project/break/IMG_9372.jpg",
+      gameplayImageCard3: "../img/project/break/E3.gif",
       gameplayImageCard4: "../img/project/break/gameplay5.png",
     },
   },
@@ -103,12 +108,14 @@ const projects: ProjectDTO[] = [
       renduImage: [
         "../img/project/echoes/Rendu.png",
         "../img/project/echoes/Rendu2.png",
+        "../img/project/echoes/LienD.png",
+        "../img/project/echoes/Forge.png",
       ],
-      gameplayImageCard1: "../img/project/echoes/IMG_9372.jpg",
+      gameplayImageCard1: "../img/project/echoes/Desincarnation.gif",
 
-      gameplayImageCard2: "../img/project/echoes/IMG_9372.jpg",
+      gameplayImageCard2: "../img/project/echoes/Dial.gif",
 
-      gameplayImageCard3: "../img/project/echoes/IMG_9372.jpg",
+      gameplayImageCard3: "../img/project/echoes/Mastering.gif",
       gameplayImageCard4: "../img/project/echoes/Momentcalme.gif",
     },
   },
@@ -142,17 +149,17 @@ const projects: ProjectDTO[] = [
         "../img/project/inferno/blockoutbiome3.png",
       ],
       renduImage: [],
-      gameplayImageCard1: "../img/project/inferno/IMG_9372.jpg",
+      gameplayImageCard1: "../img/project/inferno/Dice.gif",
 
-      gameplayImageCard2: "../img/project/inferno/IMG_9372.jpg",
+      gameplayImageCard2: "../img/project/inferno/Explo.gif",
 
-      gameplayImageCard3: "../img/project/inferno/IMG_9372.jpg",
+      gameplayImageCard3: "../img/project/inferno/Camera.gif",
       gameplayImageCard4: "../img/project/inferno/Slide1.png",
     },
   },
   {
     id: "6",
-    title: "Key Frame - Le Comte De Monte-Cristo (Pratice)",
+    title: "Key Frame - Le Comte De Monte-Cristo (Practice)",
     img: "./img/project/MonteCristo/Card.png",
     type: "Perso",
     tags: ["Artiste"],

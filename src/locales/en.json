@@ -109,7 +109,7 @@
                     "description": "Boss fights are divided into multiple phases, each bringing its unique challenges. The final boss of the game marks a return to bullet hell style. Each boss has specific attack patterns, requiring players to constantly adapt their strategies. Noreya's bosses are particularly renowned for their complexity and creativity, with unpredictable attacks, testing both the player's mastery and responsiveness."
                 },
                 "card4": {
-                    "title": "Title 4",
+                    "title": "The Gold Project.",
                     "description": "The game alternates between exploration, puzzle/challenge phases, and boss fights, offering a varied and engaging experience. Players navigate through six distinct biomes, each with a unique artistic direction carefully crafted in coherence with the level design. These diverse environments are not only visually captivating but also designed to enrich the gameplay. This combination of varied gameplay, supported by an immersive aesthetic, creates a satisfying and memorable gaming experience."
                 }
             }
@@ -164,7 +164,7 @@
                     "description": "Players are close to their final objective. The player wearing the VR headset must now give precise instructions to the players outside so they can solve an off-VR puzzle. This puzzle will provide the necessary code to open the safe. This phase of the game heavily emphasizes cooperation, requiring effective communication between players to successfully unlock the safe and reach their loot."
                 },
                 "card4": {
-                    "title": "Title 4",
+                    "title": "The perfect break-in.",
                     "description": "The game's gameplay consists of searching through different rooms to discover puzzles and clues. These puzzles, once solved, allow players to progress to the next room and reach the loot. Players not wearing the headset have their own set of clues to analyze in correlation with those found in the game. By pooling their clues together, they can deduce the steps needed to solve the puzzles."
                 }
             }
@@ -223,10 +223,10 @@
                     "description": "The game is punctuated by the discovery of narrative locations. These moments allow Cethlenn to tell the story of the places and deepen the context of their common quest. Players learn more about the world's history. These narrative moments add a layer of depth to the exploration, offering a welcome break while enriching the gameplay experience."
                 },
                 "card3": {
-                    "description": "To be filled"
+                    "description": "At the end of each level, players must use their mastery of skills acquired in final confrontations. Here, in a snake-infested temple, the player must avoid their field of vision to avoid returning to the last checkpoint. Disembodiment is necessary to progress, but the patrolling snakes are a major challenge. Players must be quick to get out of the snakes' sight and move on."
                 },
                 "card4": {
-                    "title": "Title 4",
+                    "title": "Echoes of the past.",
                     "description": "Each level is divided into three parts: The game offers progression through three phases across two different worlds (divine/fomorian): Tutorial, where the player familiarizes themselves with the mechanics; Practice, which allows the player to perfect newly acquired skills; and Mastery, where the player is tested on everything they have learned throughout the level. The main mechanic is to find a way to disincarnate to switch worlds and discover passages to progress. The story adds a narrative layer, reinforcing player engagement through the theme of redemption."
                 }
             }
@@ -266,16 +266,16 @@
             },
             "gameplay": {
                 "card1": {
-                    "description": "The game offers a rich exploration experience, with vast areas to discover and many secrets to uncover. Throughout their adventure, players will have to face a multitude of varied enemies. Players must skillfully navigate through complex environments while overcoming obstacles to progress in the game."
+                    "description": "The die roll is an essential mechanism for introducing a degree of chance and uncertainty into the resolution of actions. When a character attempts to perform an action, such as succeeding at an attack or solving a puzzle, a die roll is made to determine whether the action succeeds or fails. This system balances the game by creating situations where even the most skilled characters can fail or succeed unexpectedly, adding suspense and dynamics to the unfolding story."
                 },
                 "card2": {
-                    "description": "To be filled"
+                    "description": "Exploration and problem-solving are essential to progress. Here, characters find themselves trapped in a strange hangar. By exploring, players can uncover information about the place and discover the objective to be achieved. They might find notes left by previous occupants, hidden mechanisms or objects useful for unlocking doors or disabling traps."
                 },
                 "card3": {
                     "description": "The camera allows players to switch from a top-down view, reminiscent of classic board games, to an immersive view. This transition between perspectives gives players control over their visual experience. Inspired by the BG3 camera, this feature allows players to appreciate the strategy and details of the game. The top-down view is ideal for planning actions and navigating, while the close-up view allows for appreciating the details."
                 },
                 "card4": {
-                    "title": "Title 4",
+                    "title": "Infernal adventure.",
                     "description": "Each level is divided into three parts: The game offers progression through three phases across two different worlds (divine/fomorian): Tutorial, where the player familiarizes themselves with the mechanics; Practice, which allows the player to perfect newly acquired skills; and Mastery, where the player is tested on everything they have learned throughout the level. The main mechanic is to find a way to disincarnate to switch worlds and discover passages to progress. The story adds a narrative layer, reinforcing player engagement through the theme of redemption."
                 }
             }

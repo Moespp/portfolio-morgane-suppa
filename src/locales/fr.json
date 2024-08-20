@@ -60,7 +60,7 @@
 
         "noreya": {
             "hero": {
-                "title": "Noreya: Le projet d'or",
+                "title": "Noreya: The Gold Project",
                 "description": "Noreya : The Gold Project est un jeu metroidvania frénétique du studio toulousain Dreamirl, dans lequel les joueurs doivent entrer dans un conflit divin où le choix entre l'or et la lumière déterminera leur destin",
                 "works": "Pour ce projet j'ai travaillé sur le Game & Level Design, le Narrative Design ainsi que le Level Art."
             },
@@ -106,10 +106,10 @@
                     "description": "Les joueurs doivent résoudre des puzzles pour avancer. Pour celui ci, ils doivent apprendre à utiliser le ghost (un double fantomatique) pour réussir. Le joueur doit résoudre le puzzle pour pouvoir passer de l'autre côté. En utilisant une stèle de prière, il peut échanger sa place avec son double corporel. La clé de ce puzzle est d'interchanger les deux formes pour progresser."
                 },
                 "card3": {
-                    "description": "Les combats de boss sont divisés en plusieurs phases, chacune apportant son lot de défis uniques. Le boss final du jeu marque un retour au style bullet hell. Chaque boss possède des patterns d'attaque spécifiques, obligeant les joueurs à adapter constamment leurs stratégies. Les boss de Noreya sont particulièrement renommés pour leur complexité et leur créativité, avec des attaques imprévisibles, testant à la fois la maîtrise et la réactivité des joueurs."
+                    "description": "Les combats de boss sont divisés en plusieurs phases, chacune apportant son lot de défis uniques. Chaque boss possède des patterns d'attaque spécifiques, obligeant les joueurs à adapter constamment leurs stratégies. Les boss de Noreya sont particulièrement renommés pour leur complexité et leur créativité, avec des attaques imprévisibles, testant à la fois la maîtrise et la réactivité des joueurs."
                 },
                 "card4": {
-                    "title": "Titre 4",
+                    "title": "Le projet gold.",
                     "description": "Le jeu alterne entre des phases d'exploration, de puzzles/challenges et de combats de boss, offrant une expérience variée et engageante. Les joueurs naviguent à travers six biomes distincts, chacun doté d'une direction artistique unique et soigneusement élaborée en cohérence avec le level design. Ces environnements diversifiés sont non seulement visuellement captivants mais aussi conçus pour enrichir le gameplay. Cette combinaison de gameplay varié, soutenue par une esthétique immersive, crée une expérience de jeu satisfaisante et mémorable."
                 }
             }
@@ -164,7 +164,7 @@
                     "description": "Les joueurs sont proches de leur objectif final. Le joueur équipé du casque VR doit maintenant donner des instructions précises aux joueurs à l'extérieur pour qu'ils puissent résoudre une énigme hors VR. Cette énigme fournira le code nécessaire pour ouvrir le coffre. Cette phase du jeu met fortement l'accent sur la coopération, exigeant une communication efficace entre les joueurs pour réussir à déverrouiller le coffre et atteindre leur butin."
                 },
                 "card4": {
-                    "title": "Titre 4",
+                    "title": "Le cambriolage parfait.",
                     "description": "Le gameplay du jeu consiste à fouiller les différentes salles pour découvrir des énigmes et des indices. Ces énigmes, une fois résolues, permettent d’avancer à la pièce suivante, et d’atteindre le butin. Les joueurs ne portant pas le casque possèdent de leur côté plusieurs indices à analyser en corrélation avec ceux trouvables dans le jeu. En mettant en commun leurs indices, ils peuvent en déduire la marche à suivre pour résoudre les énigmes."
                 }
             }
@@ -223,10 +223,10 @@
                     "description": "Le jeu est ponctué de découverte de lieux narratifs. Ces moments permettent à Cethlenn de raconter l'histoire des lieux et d'approfondir le contexte de leur quête commune. Les joueurs en apprennent davantage sur l'histoire du monde. Ces moments narratifs ajoutent une dimension de profondeur à l'exploration, offrant une pause bienvenue tout en enrichissant l'expérience du jeu."
                 },
                 "card3": {
-                    "description": "à remplir"
+                    "description": "À la fin de chaque niveau, les joueurs doivent utiliser leur maîtrise des compétences acquises lors de confrontations finale. Ici, dans un temple infesté de serpents, le joueur doit éviter leur champ de vision pour éviter de revenir au dernier point de contrôle. La désincarnation est nécessaire pour progresser, mais les serpents patrouillant est un défi majeur. Les joueurs doivent être rapide pour sortir de la vue des serpents et avancer."
                 },
                 "card4": {
-                    "title": "Titre 4",
+                    "title": "L'écho du passé.",
                     "description": "Chaque niveau est décomposé en trois partie : Le jeu propose une progression à travers trois phases à travers deux mondes différents (divin / fomoire) : Turoriel, où le joueur se familiarise avec les mécaniques; Pratique, qui permet au joueur de perfectionner ses compétences nouvellement acquises ; et Maîtrise, où le joueur est mis à l'épreuve sur tout ce qu'il a appris au cours du niveau. La mécanique principale est de trouver un moyen de se désincarner pour changer de monde et découvrir des passages pour progresser. L'histoire ajoute une couche narrative, renforçant l'engagement du joueur à travers la thématique de la rédemption."
                 }
             }
@@ -266,17 +266,17 @@
             },
             "gameplay": {
                 "card1": {
-                    "description": "Le jeu offre une riche expérience d'exploration, avec de vastes zones à découvrir et de nombreux secrets à dévoiler. Au cours de leur aventure, les joueurs devront affronter une multitude d'ennemis variés. Les joueurs devront naviguer habilement à travers des environnements complexes tout en surmontant des obstacles pour progresser dans le jeu."
+                    "description": "Le jet de dé est une mécanique essentielle qui permet d'introduire une part de hasard et d'incertitude dans la résolution des actions entreprises. Lorsqu'un personnage tente d'accomplir une action, comme réussir une attaque ou résoudre une énigme, un jet de dé est effectué pour déterminer si l'action réussit ou échoue. Ce système équilibre le jeu en créant des situations où même les personnages les plus compétents peuvent échouer ou réussir de manière inattendue, ajoutant ainsi du suspense et de la dynamique au déroulement de l'histoire."
                 },
                 "card2": {
-                    "description": "à remplir"
+                    "description": "L'exploration et la résolution de problèmes sont essentielles pour progresser. Ici, les personnages se retrouvent piégés dans un étrange hangar. En explorant, les joueurs peuvent découvrir des informations sur l'endroit et découvrir l'objectif à accomplir. Ils pourraient trouver des notes laissées par d'anciens occupants, des mécanismes cachés ou des objets utiles pour déverrouiller des portes ou désactiver des pièges."
                 },
                 "card3": {
                     "description": "La caméra permet aux joueurs de passer d'une vue du dessus, rappelant les jeux de plateau classiques, à une vue immersive. Cette transition entre les perspectives donne aux joueurs un contrôle sur leur expérience visuelle. Inspirée par la caméra de BG3, cette fonctionnalité permet d'apprécier la stratégie et les détails du jeu. La vue du dessus est idéale pour planifier des actions et naviguer, tandis que la vue rapprochée permet d'apprécier les détails."
                 },
                 "card4": {
-                    "title": "Titre 4",
-                    "description": "Chaque niveau est décomposé en trois partie : Le jeu propose une progression à travers trois phases à travers deux mondes différents (divin / fomoire) : Turoriel, où le joueur se familiarise avec les mécaniques; Pratique, qui permet au joueur de perfectionner ses compétences nouvellement acquises ; et Maîtrise, où le joueur est mis à l'épreuve sur tout ce qu'il a appris au cours du niveau. La mécanique principale est de trouver un moyen de se désincarner pour changer de monde et découvrir des passages pour progresser. L'histoire ajoute une couche narrative, renforçant l'engagement du joueur à travers la thématique de la rédemption."
+                    "title": "L'aventure infernal",
+                    "description": "Nous avons créé une proof of concept pour un jeu qui reprend les principes des jeux de rôle sur table et les intègre dans un jeu vidéo. L'objectif était de rester fidèle aux racines du JDR papier. Nous avons travaillé sur une caméra immersive et cohérente avec le genre, ainsi que sur l'intégration d'une mécanique de jet de dé pour déterminer les résultats des actions en jeu. Nous avons transformé une campagne de JDR existante en papier en une simple démo jouable."
                 }
             }
         }
