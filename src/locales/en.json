@@ -1,5 +1,6 @@
 {
     "common": {
+        "iam": "I am",
         "close": "Close window",
         "back": "Back",
         "contact": "Contact"

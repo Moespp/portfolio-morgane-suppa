@@ -1,5 +1,6 @@
 {
     "common": {
+        "iam": "Je suis",
         "close": "Fermer la fenêtre",
         "back": "Retour",
         "contact": "Contact"
