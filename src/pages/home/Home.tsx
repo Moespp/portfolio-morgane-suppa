@@ -9,6 +9,7 @@ import ListProjects from "./section/ListProjects";
 import Modal from "react-modal";
 import { useEffect, useState } from "react";
 import PdfViewer from "../../components/pdf/PdfViewer";
+import ArrowToTop from "../../components/common/ArrowToTop";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -49,6 +50,7 @@ const Home = () => {
             />
           </div>
         </Hero>
+        <ArrowToTop />
         <SectionAbout />
         <ListProjects />
         <Modal

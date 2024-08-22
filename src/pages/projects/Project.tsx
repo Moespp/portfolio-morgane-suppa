@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router";
 import Header from "../../components/common/Header";
 import Footer from "../../components/common/Footer";
@@ -8,10 +9,10 @@ import Badge from "../../components/common/Badge";
 import { useTranslation } from "react-i18next";
 import CardWithCarousel from "./section/cardWithCarousel";
 import Title from "../../components/common/Title";
-import { useEffect, useState } from "react";
 import ButtonStyled from "../../components/common/ButtonStyled";
 import { Link } from "react-router-dom";
 import Icon from "../../components/common/Icon";
+import ArrowToTop from "../../components/common/ArrowToTop";
 
 const stringToNumber = (str: string): number => parseInt(str, 10);
 
@@ -85,6 +86,7 @@ const Project = () => {
     <>
       <Header />
       <main className="flex flex-col gap-32 items-start justify-start bg-white pb-32">
+        <ArrowToTop />
         <Hero videoSrc={pageContent?.backgroundImage} className="items-start">
           <div className="max-w-[1500px] mx-auto w-full sm:px-10 flex flex-col gap-4 items-start justify-start">
             {/* bento avec button retour  */}
