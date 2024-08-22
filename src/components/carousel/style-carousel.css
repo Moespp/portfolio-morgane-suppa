@@ -15,11 +15,15 @@
 .carousel-slide {
     min-width: 100%;
     transition: transform 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel-slide img {
     height: 100%;
     margin: 0 auto;
+    object-fit: cover;
 }
 
 

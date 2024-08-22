@@ -6,7 +6,7 @@ interface CarouselItemProps {
 
 const CarouselItem = ({ image, index, currentIndex }: CarouselItemProps) => {
   return (
-    <div className={`carousel-slide ${index === currentIndex ? 'active' : ''}`}>
+    <div className={`carousel-slide ${index === currentIndex ? "active" : ""}`}>
       <img src={image} alt={`Affiche ${index + 1}`} />
     </div>
   );
