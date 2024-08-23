@@ -30,13 +30,13 @@ const ArrowToTop = () => {
 
   return (
     <div
-      className={`fixed bottom-12 right-12 z-50 transition-opacity duration-500 ${
-        isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'
+      className={`fixed sm:bottom-14 sm:right-12 display-none sm:display-block z-50 transition-opacity duration-500 ${
+        isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}
       style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
       }}
     >
       <button

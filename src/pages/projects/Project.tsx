@@ -20,7 +20,9 @@ const Project = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const { id } = useParams<{ id: string }>();
-  const project = projects.find((p) => p.id === id);
+  const [project, setProject] = useState(() =>
+    projects.find((p) => p.id === id)
+  );
 
   const projectIdNumber = stringToNumber(id ?? "0");
 
@@ -67,7 +69,10 @@ const Project = () => {
 
   useEffect(() => {
     window.scrollTo({ top: 0 });
-  }, []);
+
+    // Update the project when the ID changes
+    setProject(projects.find((p) => p.id === id));
+  }, [id]);
 
   // Chemin de traduction
   const translateProjectPath = `${project?.translation}`;
@@ -87,10 +92,12 @@ const Project = () => {
       <Header />
       <main className="flex flex-col gap-32 items-start justify-start bg-white pb-32">
         <ArrowToTop />
-        <Hero videoSrc={pageContent?.backgroundImage} className="items-start">
+        <Hero
+          key={`${project?.id}-hero`}
+          videoSrc={pageContent?.backgroundImage}
+          className="items-start"
+        >
           <div className="max-w-[1500px] mx-auto w-full sm:px-10 flex flex-col gap-4 items-start justify-start">
-            {/* bento avec button retour  */}
-
             <ButtonStyled
               label={t("common.back")}
               icon={{ name: "ArrowLeft", size: 24 }}
@@ -111,7 +118,7 @@ const Project = () => {
             >
               {pageContent?.gameType.map((tag, index) => (
                 <Badge
-                  key={index}
+                  key={`${project?.id}-gameType-${index}`}
                   text={tag}
                   color="bg-blue-500"
                   className="w-fit text-lg"
@@ -123,11 +130,12 @@ const Project = () => {
         <section className="flex flex-col gap-4 items-center justify-center mx-auto">
           <Title text={t(`projects.sectionTitle.trailer`)} className="mb-12" />
           <iframe
+            key={`${project?.id}-video`}
             width={widthVideo > 1500 ? 1500 : widthVideo}
             height={heightVideo}
             className="px-4 sm:px-10 max-w-[1500px] mx-auto"
             src={pageContent?.video}
-            title="Noreya: The Gold Project - Release Trailer - Coming on June 21St to Steam"
+            title="Project Video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           ></iframe>
         </section>
@@ -138,17 +146,20 @@ const Project = () => {
             className="mb-12 mx-auto"
           />
           <CardWithCarousel
+            key={`${project?.id}-conception`}
             title={t(`${translateProjectPath}.conception.title`)}
             description={conceptionDesc}
             carouselImages={pageContent?.conceptionImage ?? []}
           />
           <CardWithCarousel
+            key={`${project?.id}-blockout`}
             title={t(`${translateProjectPath}.blockout.title`)}
             description={blockoutDesc}
             carouselImages={pageContent?.blockoutImage ?? []}
             reverse
           />
           <CardWithCarousel
+            key={`${project?.id}-rendu`}
             title={t(`${translateProjectPath}.rendu.title`)}
             description={renduDesc}
             carouselImages={pageContent?.renduImage ?? []}
@@ -167,26 +178,39 @@ const Project = () => {
               </p>
             </div>
             <img
-              src={pageContent?.gameplayImageCard4}
+              key={`${project?.id}-gameplayImageCard4`}
+              src={`${pageContent?.gameplayImageCard4}?v=${project?.id}`}
               alt="gameplay"
               className="w-full md:w-1/2"
             />
           </Bento>
           <div className="flex flex-col gap-4 md:flex-row">
             <Bento className="w-full md:w-1/2 h-fit">
-              <img src={pageContent?.gameplayImageCard1} alt="gameplay" />
+              <img
+                key={`${project?.id}-gameplayImageCard1`}
+                src={`${pageContent?.gameplayImageCard1}?v=${project?.id}`}
+                alt="gameplay"
+              />
               <p className="text-sm">
                 {t(`${translateProjectPath}.gameplay.card1.description`)}
               </p>
             </Bento>
             <Bento className="w-full md:w-1/2 h-fit">
-              <img src={pageContent?.gameplayImageCard2} alt="gameplay" />
+              <img
+                key={`${project?.id}-gameplayImageCard2`}
+                src={`${pageContent?.gameplayImageCard2}?v=${project?.id}`}
+                alt="gameplay"
+              />
               <p className="text-sm">
                 {t(`${translateProjectPath}.gameplay.card2.description`)}
               </p>
             </Bento>
             <Bento className="w-full md:w-1/2 h-fit">
-              <img src={pageContent?.gameplayImageCard3} alt="gameplay" />
+              <img
+                key={`${project?.id}-gameplayImageCard3`}
+                src={`${pageContent?.gameplayImageCard3}?v=${project?.id}`}
+                alt="gameplay"
+              />
               <p className="text-sm">
                 {t(`${translateProjectPath}.gameplay.card3.description`)}
               </p>
@@ -212,14 +236,12 @@ const Project = () => {
                 size={32}
                 className="-rotate-45 transition-all duration-300"
               />
-              {/* ArrowRight */}
             </Link>
           </div>
           <div className="flex flex-col gap-4 max-w-[700px]">
             <h3 className="sm:text-4xl text-2xl font-bold m-0">
               {t("projects.collaborate.title")}
             </h3>
-            {/* separator */}
             <div className="w-full h-[1px] bg-black"></div>
             <p className="">{t("projects.collaborate.description")}</p>
             <ButtonStyled
