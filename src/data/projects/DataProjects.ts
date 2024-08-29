@@ -28,8 +28,8 @@ const projects: ProjectDTO[] = [
         "../img/project/noreya/blockoutbiome1.png",
         "../img/project/noreya/blockoutbiome2.png",
         "../img/project/noreya/blockoutbiome3.png",
-        "../img/project/noreya/blockout4.png",
-        "../img/project/noreya/blockout7.png",
+        "../img/project/noreya/Blockout4.png",
+        "../img/project/noreya/Blockout7.png",
         "../img/project/noreya/BigBlockout.png",
       ],
       renduImage: [
