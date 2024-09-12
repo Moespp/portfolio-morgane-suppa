@@ -14,12 +14,10 @@
     "gsap": "^3.12.5",
     "i18next": "^23.4.6",
     "lucide-react": "^0.424.0",
-    "pdfjs-dist": "^4.6.82",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^15.0.0",
     "react-modal": "^3.16.1",
-    "react-pdf": "^9.1.0",
     "react-pdf-js": "^5.1.0",
     "react-router": "6",
     "react-router-dom": "6"
