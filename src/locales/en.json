@@ -1,12 +1,16 @@
 {
     "common": {
         "iam": "I am",
-        "close": "Close window",
+        "close": "Close",
         "back": "Back",
         "contact": "Contact"
     },
     "header": {
-        "title": "MORGANE SUPPA"
+        "title": "MORGANE SUPPA",
+        "menu": {
+            "home": "Home",
+            "contact": "Contact"
+        }
     },
     "footer": {
         "legalMentions": "Legal mentions",
@@ -17,7 +21,7 @@
             "title": "MORGANE SUPPA",
             "description": "From my earliest steps, I have always been drawn to art and video games. Level Design and Narrative Design were immediately the areas where I felt most comfortable, followed by environmental storytelling and Level Art. My artistic profile merges with my technical skills. My artistic abilities are the foundation of my collaborations with other teams, a combination I consider essential to bring projects to life. I am fortunate to love my job, and it is a pleasure for me to share with you what I have accomplished.",
             "more": "Learn more",
-            "dowload": "Download my CV",
+            "dowload": "Download",
             "visualization": "View my CV",
             "contact": "Contact me"
         },

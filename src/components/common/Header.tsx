@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import ButtonStyled from "./ButtonStyled";
 
 const Header = () => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const [IsMobile, setIsMobile] = useState(window.innerWidth > 768);
   const [activeLink, setActiveLink] = useState<string | null>(null);
 
@@ -72,7 +72,7 @@ const Header = () => {
         className={`sm:text-2xl text-xl font-extrabold leading-7 text-black hover:text-primary transition-all duration-300 cursor-pointer uppercase`}
         onClick={() => clickLogo()}
       >
-        Morgane Suppa
+        {t("header.title")}
       </h1>
 
       <div className="flex items-center gap-4">
@@ -81,7 +81,7 @@ const Header = () => {
           onClick={() => goToTop()}
           className={`"text-sm font-bold leading-6 text-black hover:text-primary transition-all duration-300"`}
         >
-          Acceuil
+          {t("header.menu.home")}
         </Link>
         <button
           onClick={toggleLanguage}
@@ -149,7 +149,7 @@ const Header = () => {
         {IsMobile ? (
           <ButtonStyled
             onClick={() => window.open("mailto:morgane.suppa.pro@gmail.com")}
-            label="Contact"
+            label={t("header.menu.contact")}
           />
         ) : null}
 

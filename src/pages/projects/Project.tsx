@@ -28,7 +28,6 @@ const Project = () => {
 
   const totalProjects = projects.length;
 
-  // Find the next valid project
   const getNextValidProject = (currentId: number) => {
     let nextId = currentId;
     for (let i = 0; i < totalProjects; i++) {
@@ -38,7 +37,7 @@ const Project = () => {
         return nextProject;
       }
     }
-    return null; // Return null if no valid next project is found
+    return null;
   };
 
   const nextProject = getNextValidProject(projectIdNumber);
@@ -70,11 +69,9 @@ const Project = () => {
   useEffect(() => {
     window.scrollTo({ top: 0 });
 
-    // Update the project when the ID changes
     setProject(projects.find((p) => p.id === id));
   }, [id]);
 
-  // Chemin de traduction
   const translateProjectPath = `${project?.translation}`;
 
   const conceptionDesc = t(`${translateProjectPath}.conception.description`, {
