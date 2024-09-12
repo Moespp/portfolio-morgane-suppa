@@ -57,21 +57,25 @@ const Home = () => {
           isOpen={modalIsOpen}
           onRequestClose={closeModal}
           className={
-            "bg-white2 rounded-lg border-2 border-gray-200 shadow-lg px-8 py-6 w-fit flex flex-col gap-8 fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+            "bg-white2 rounded-lg border-2 border-none shadow-lg px-8 py-6 w-fit flex flex-col gap-8 fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
           }
         >
-          <PdfViewer fileUrl="./pdf/Morgane_Suppa_CV.pdf" />
-          {/* Button télécharger le CV */}
+          <PdfViewer
+            fileUrl="./pdf/Morgane_Suppa_CV.pdf"
+            showPagination={false}
+          />
           <div className="flex justify-center gap-8">
             <ButtonStyled
               label={t("home.hero.dowload")}
               icon={{ name: "Download", size: 24 }}
               onClick={dowloadPdf}
+              className="w-full"
             />
             <ButtonStyled
               label={t("common.close")}
               icon={{ name: "X", size: 24 }}
               onClick={closeModal}
+              className="w-full"
             />
           </div>
         </Modal>
