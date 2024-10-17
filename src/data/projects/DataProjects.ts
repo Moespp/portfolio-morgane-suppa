@@ -89,6 +89,14 @@ const projects: ProjectDTO[] = [
   },
   {
     id: "3",
+    title: "An Elfic Journey (Soon)",
+    img: "./img/project/elfic/Card.png",
+    type: "Pro",
+    tags: ["Level Designer", "Game Design"],
+    externalLink: "https://x.com/Inateno/status/1824714454577123625/photo/1",
+  },
+  {
+    id: "4",
     title: "Echoes of the restless",
     translation: "projects.echoes",
     img: "./img/project/echoes/ECHOESOFTHERESTLESS.png",
@@ -129,7 +137,7 @@ const projects: ProjectDTO[] = [
     },
   },
   {
-    id: "4",
+    id: "5",
     title: "Game Jam - NOKUEST 3310",
     img: "./img/project/nokuest/nokuest.png",
     type: "Perso",
@@ -137,7 +145,7 @@ const projects: ProjectDTO[] = [
     externalLink: "https://mospp.itch.io/nokuest-nokiagamejam3310",
   },
   {
-    id: "5",
+    id: "6",
     title: "Inferno's descent",
     translation: "projects.inferno",
     img: "./img/project/inferno/InfernosDescent.png",
@@ -167,12 +175,12 @@ const projects: ProjectDTO[] = [
     },
   },
   {
-    id: "6",
-    title: "Key Frame - Le Comte De Monte-Cristo (Practice)",
+    id: "7",
+    title: "Art - UnderDog (Post-Apo)",
     img: "./img/project/MonteCristo/Card.png",
     type: "Perso",
     tags: ["Artiste"],
-    externalLink: "https://www.artstation.com/artwork/P6aAvr",
+    externalLink: "https://www.artstation.com/artwork/6LNORr",
   },
 ];
 
