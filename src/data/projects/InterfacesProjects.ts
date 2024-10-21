@@ -6,12 +6,13 @@ export type PlateformeDTO =
   | "Windows";
 
 export type TagDTO =
-  | "Level Designer"
-  | "Narrative Designer"
-  | "Artiste"
-  | "Scripting"
+  | "Level Design"
+  | "Level Art"
+  | "Narrative Design"
+  | "Art"
+  | "Script"
   | "Game Design"
-  | "Auteur";
+  | "Writer";
 
 export interface ProjectDTO {
   id: string;

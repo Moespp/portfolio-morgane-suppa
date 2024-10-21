@@ -16,6 +16,7 @@
         "legalMentions": "Legal mentions",
         "copyright": "© 2023 Morgane Suppa"
     },
+
     "home": {
         "hero": {
             "title": "MORGANE SUPPA",
@@ -174,6 +175,62 @@
                 }
             }
         },
+
+        "repairer": {
+    "hero": {
+        "title": "Repairer",
+        "description": "Repairer is a cozy FPS platformer set in a peaceful digital universe where players take on the role of FIVE, a maintenance robot from Green Agency, sent to repair anomalies across different simulations.",
+        "works": "For this project, I worked on Level Design and Level Art (Set dressing)."
+    },
+    "conception": {
+        "title": "Design",
+        "description": [
+            "Macro level design for the forest simulation.",
+            "Creation of events (robots, Warpzone, Panorama Zone, cinematics, etc.)",
+            "Creation of landmarks, hot spots, and focal points.",
+            "Managing the pacing and difficulty of the level.",
+            "Research and references from similar games."
+        ]
+    },
+    "blockout": {
+        "title": "Blockout",
+        "description": [
+            "Designing gray-boxed levels for the Forest zone to test mechanics.",
+            "Iterations.",
+            "Ensuring clear navigation in the open area so the player never loses sight of their goal.",
+            "Pacing exploration with contemplative areas in the map.",
+            "Collaboration with the DEV team.",
+            "Integrating developer-coded features into the world (events, monsters, etc.).",
+            "Playtesting and bug fixing."
+        ]
+    },
+    "rendu": {
+        "title": "Rendering (Not final)",
+        "description": [
+            "Collaboration with the ART team.",
+            "Feedback and testing of 3D Assets and Props.",
+            "Placement and decoration of validated level maps.",
+            "Particular attention to every detail.",
+            "Bug fixing."
+        ]
+    },
+    "gameplay": {
+        "card1": {
+            "description": "In Repairer, the player controls FIVE, a maintenance robot who is both agile and calm. The movement system reflects the cozy spirit of the game: easy to master but fluid. FIVE can walk calmly, run, wall-run, jump, double-jump, climb, and use a dash to zip between platforms. Thanks to the grappling hook, FIVE can also latch onto surfaces and swing smoothly. Inspired by games like A Short Hike, the movement is designed to offer a pleasant experience, allowing players to enjoy the relaxed pace while exploring at their own rhythm. Every action feels natural, encouraging relaxation while navigating this digital world."
+        },
+        "card2": {
+            "description": "Exploration is at the heart of Repairer’s cozy experience. The game immerses players in a tranquil digital world, where each simulation, starting with the forest, invites quiet contemplation and peaceful discovery. The idea is to get lost in a warm environment without pressure. The goal is clear: reach the Grand Tree, but along the way, the player will meet unique robots, each offering a small story or quest. The world is designed to be inviting, encouraging exploration at your own pace, with small surprises scattered for those who take time to explore every corner."
+        },
+        "card3": {
+            "description": "Though the general atmosphere of Repairer is calm and relaxing, it also offers tougher challenges for more daring players. The Warp Zone, for instance, is a secret area revealed after a robot accidentally blows up a dam. This zone features more technical platforming but still maintains the cozy spirit of the game: even the challenging moments retain that cozy feel. The difficulty is there without being frustrating, rewarding players who have mastered FIVE’s movements. It's a great opportunity to push the player's skills without losing the peaceful atmosphere of the adventure."
+        },
+        "card4": {
+            "title": "Green Tech",
+            "description": "Repairer is a first-person platformer and shooter set in a peaceful digital universe. The player controls FIVE, a maintenance robot sent by Green Agency to fix anomalies in simulations, the first being a calm forest (since nature no longer exists in this universe). The gameplay is smooth and accessible, focusing on relaxation and exploration. Inspired by games like A Short Hike, the experience maintains a calm, cozy pace while offering dynamic mechanics. Players are invited to navigate platforms, meet robots with small stories to share, and complete side quests while progressing toward the main objective: reaching the Grand Tree. For more daring players, the Warp Zone introduces an optional challenge, perfect for testing their skills without losing the cozy essence of the game."
+        }
+    }
+},
+
         "echoes": {
             "hero": {
                 "title": "Echoes of the restless",

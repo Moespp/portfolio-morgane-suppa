@@ -174,6 +174,61 @@
                 }
             }
         },
+        "repairer": {
+            "hero": {
+                "title": "Repairer",
+                "description": "Repairer est un FPS platformer cozy dans un univers numérique tranquille où nous incarnons FIVE, un robot de maintenance de l'Agence Green envoyé pour réparer des anomalies à travers des simulations.",
+                "works": "Pour ce projet j'ai travaillé sur le Level Design ainsi que le Level Art (Set dressing)"
+            },
+
+            "conception": {
+                "title": "Conception",
+                "description": [
+                    "Assistance du Level Designer dans la conception des schémas macro du niveau de la forêt.",
+                    "Création des événements (robots, Warpzone, Zone Panorama, cinématiques etc...)",
+                    "Création des landmark, hot spot et focal point.",
+                    "Gérer le rythme et la difficulté du niveau.",
+                    "Recherches et Références sur des jeux similaires."
+                ]
+            },
+            "blockout": {
+                "title": "Blockout",
+                "description": [
+                    "Conception des niveaux en blocs gris de la zone Forêt pour les test des mécaniques.",
+                    "Itérations.",
+                    "Assurer une navigation claire dans la zone ouverte afin que le joueur ne perde jamais son objectif en tête",
+                    "Rythmer l'exploration de la map de zone contemplative",
+                    "Collaboration avec le pôle DEV.",
+                    "Intégration des fonctionnalités codées par les développeurs dans le monde (événements, monstres, etc.)",
+                    "Playtest et correction de bugs."
+                ]
+            },
+            "rendu": {
+                "title": "Rendu (En cours)",
+                "description": [
+                    "Collaboration avec le pôle ART.",
+                    "Retours et Tests des Assets et Props 3D",
+                    "Placement et décoration des maps des niveaux validés.",
+                    "Attention particulière portée à chaque détail.",
+                    "Corrections de bugs"
+                ]
+            },
+            "gameplay": {
+                "card1": {
+                    "description": "Dans Repairer, le joueur incarne FIVE, un robot de maintenance à la fois agile et serein. Le système de déplacements reflète parfaitement l'esprit cozy du jeu : simple à maîtriser mais avec fluidité. FIVE peut marcher calmement, courir, courir sur les sauter, double-sauter, grimper, et utiliser un dash pour filer entre les plateformes. Grâce à son grappin, il peut aussi s’accrocher aux surfaces et se balancer avec aisance. Inspiré par des jeux comme A Short Hike, les mouvements sont pensés pour offrir une expérience plaisante, permettant au joueur de profiter du rythme tranquille tout en explorant à son propre rythme. Chaque action est naturelle, encourageant la détente tout en naviguant dans cet univers numérique."
+                },
+                "card2": {
+                    "description": "L'exploration est au cœur de l’expérience cozy de Repairer. Le jeu plonge le joueur dans un monde numérique apaisant, où chaque simulation, à commencer par la forêt, invite à la contemplation et à la découverte tranquille. L'idée est de se perdre dans un environnement chaleureux sans pression. Le but est clair : atteindre le Grand Arbre, mais en chemin, le joueur rencontrera des robots uniques, chacun avec une petite histoire ou une quête à offrir. Ce monde est conçu pour être accueillant, encourageant l'exploration à son propre rythme, avec de petites surprises disséminées pour ceux qui prennent le temps de s’aventurer dans chaque recoin."
+                },
+                "card3": {
+                    "description": "Bien que l’ambiance générale de Repairer soit calme et détendue, il propose aussi des défis plus corsés pour les joueurs les plus téméraires. La Warp Zone, par exemple, est une zone secrète révélée après une maladresse d’un robot qui fait exploser un barrage. Cette zone offre une plateforme plus technique, mais toujours dans l’esprit du jeu : même les moments difficiles conservent cette sensation cozy. La difficulté est présente sans jamais être frustrante, récompensant ceux qui ont perfectionné les mouvements de FIVE. C'est une belle occasion de pousser un peu plus loin les capacités du joueur, sans pour autant trahir l’atmosphère paisible de l'aventure."
+                },
+                "card4": {
+                    "title": "Green Tech ",
+                    "description": "Repairer est un jeu de plateforme et de tir à la première personne qui se déroule dans un univers numérique apaisant. Le joueur incarne FIVE, un robot de maintenance envoyé par l'Agence Green pour réparer des anomalies dans des simulations, la première étant une forêt tranquille (la nature n'existant plus dans cet univers). Le gameplay se veut fluide et accessible, avec un accent sur la détente et l'exploration. Inspiré par des jeux comme A Short Hike, l’expérience privilégie tout de même un rythme calme, cozy, tout en offrant des mécaniques dynamiques. Le joueur est invité à naviguer entre des plateformes, à rencontrer des robots avec des petites histoires à partager et des quêtes annexes à accomplir, tout en progressant vers un objectif principal : rejoindre le Grand Arbre. Pour les plus audacieux, la Warp Zone introduit une difficulté optionnelle, idéale pour tester leurs compétences sans perdre l'essence cozy du jeu."
+                }
+            }
+        },
         "echoes": {
             "hero": {
                 "title": "Echoes of the restless",
