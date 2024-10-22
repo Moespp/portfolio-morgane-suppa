@@ -110,6 +110,8 @@ const projects: ProjectDTO[] = [
         "../img/project/repairer/Blockout4.png",
         "../img/project/repairer/Blockout5.png",
         "../img/project/repairer/Blockout6.png",
+        "../img/project/repairer/Rendu4.png",
+        "../img/project/repairer/Rendu5.png",
       ],
       renduImage: [
         "../img/project/repairer/Rendu3.png",
