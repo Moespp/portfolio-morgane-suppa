@@ -295,7 +295,7 @@
         "inferno": {
             "hero": {
                 "title": "Inferno's descent",
-                "description": "Inferno's Descent est un une Proof Of Concept d'un jeu de type T-RPG d'une camapgne JDR inspiré du livre Donjons et Dragons : Descent into Avernus.",
+                "description": "Inferno's Descent est un prototype d'un jeu de type T-RPG d'une campagne JDR inspiré du livre Donjons et Dragons : Descent into Avernus.",
                 "works": "Pour ce projet j'ai travaillé sur le Game & Level Design, le Narrative Design ainsi que le Level Art."
             },
 
@@ -305,7 +305,7 @@
                     "Conception schémas de la zone du hangar des machines.",
                     "Conception des différents chemins et des interactions.",
                     "Placement des événements narratifs (Tormentor, Panneaux de contrôle, Jets de dés, cinématiques etc...)",
-                    "GérGérer l'équilibre de la zone d'apprentissage.",
+                    "Gérer l'équilibre de la zone d'apprentissage.",
                     "Amélioration de la fluidité de l'exploration et de l'interactivité de la zone."
                 ]
             },

@@ -110,11 +110,11 @@ const projects: ProjectDTO[] = [
         "../img/project/repairer/Blockout4.png",
         "../img/project/repairer/Blockout5.png",
         "../img/project/repairer/Blockout6.png",
+        "../img/project/repairer/Rendu3.png",
         "../img/project/repairer/Rendu4.png",
         "../img/project/repairer/Rendu5.png",
       ],
       renduImage: [
-        "../img/project/repairer/Rendu3.png",
         "../img/project/repairer/Rendu2.png",
         "../img/project/repairer/Rendu1.png",
       ],
@@ -184,8 +184,8 @@ const projects: ProjectDTO[] = [
     externalLink: "https://mospp.itch.io/nokuest-nokiagamejam3310",
   },
   {
-    id: "6",
-    title: "Inferno's descent",
+    id: "7",
+    title: "Inferno's descent (Protoype)",
     translation: "projects.inferno",
     img: "./img/project/inferno/InfernosDescent.png",
     type: "Perso",
@@ -198,11 +198,14 @@ const projects: ProjectDTO[] = [
       gameType: ["Trpg", "3D", "DnD", "Proof of cconcept"],
       video: "https://www.youtube.com/embed/wogfOxA6bQw",
       pathi18n: "projects",
-      conceptionImage: ["../img/project/inferno/Conception3.png"],
-      blockoutImage: [
+      conceptionImage: [
+        "../img/project/inferno/Map.png",
         "../img/project/inferno/blockoutbiome1.png",
+      ],
+      blockoutImage: [
         "../img/project/inferno/blockoutbiome2.png",
         "../img/project/inferno/blockoutbiome3.png",
+        "../img/project/inferno/Blockout1.png",
       ],
       renduImage: [],
       gameplayImageCard1: "../img/project/inferno/Dice.gif",
