@@ -2,10 +2,11 @@ import { ProjectDTO } from "./InterfacesProjects";
 
 const projects: ProjectDTO[] = [
   {
+    
     id: "1",
-    title: "Noreya: The gold project",
+    title: "Noreya: The gold project - Dreamirl",
     translation: "projects.noreya",
-    img: "./img/project/noreya/IMG_9372.jpg",
+    img: "./img/project/noreya/headerNoreya.png",
     type: "Pro",
     tags: ["Game Design", "Level Design", "Level Art", "Narrative Design", "Script"],
     page: {
@@ -52,9 +53,17 @@ const projects: ProjectDTO[] = [
   },
   {
     id: "2",
+    title: "TAILS TALES - Devil In Disguise",
+    img: "./img/project/DID/TellTails.png",
+    type: "Pro",
+    tags: ["Lead project", "Game Design", "Level Design", "Level Art",],
+    externalLink: "https://www.linkedin.com/company/devil-in-disguise-studio",
+  },
+  {
+    id: "3",
     title: "Break in the loop",
     translation: "projects.break",
-    img: "./img/project/break/breakintheloop4.jpg",
+    img: "./img/project/break/headerBIL.png",
     type: "Perso",
     tags: ["Game Design", "Level Design", "Level Art"],
     page: {
@@ -89,140 +98,11 @@ const projects: ProjectDTO[] = [
   },
   {
     id: "3",
-    title: "Project Repairer",
-    translation: "projects.repairer",
-    img: "./img/project/repairer/Card.png",
-    type: "Pro",
-    tags: ["Level Design", "Level Art"],
-    page: {
-      backgroundImage: "../img/project/repairer/Card.png",
-      moteur: "Unreal Engine 5",
-      tools: "Miro, Trello, Discord",
-      plateforme: ["Windows"],
-      gameType: ["FPS Platformer", "Cozy", "3D"],
-      video: "https://www.youtube.com/embed/lvLw3N-XiaA",
-      pathi18n: "project",
-      conceptionImage: [],
-      blockoutImage: [
-        "../img/project/repairer/Blockout.png",
-        "../img/project/repairer/Blockout2.png",
-        "../img/project/repairer/Blockout3.png",
-        "../img/project/repairer/Blockout4.png",
-        "../img/project/repairer/Blockout5.png",
-        "../img/project/repairer/Blockout6.png",
-        "../img/project/repairer/Rendu3.png",
-        "../img/project/repairer/Rendu4.png",
-        "../img/project/repairer/Rendu5.png",
-      ],
-      renduImage: [
-        "../img/project/repairer/Rendu2.png",
-        "../img/project/repairer/Rendu1.png",
-      ],
-      gameplayImageCard1: "../img/project/repairer/Card.png",
-
-      gameplayImageCard2: "../img/project/repairer/Card2.png",
-
-      gameplayImageCard3: "../img/project/repairer/Card3.png",
-      gameplayImageCard4: "../img/project/repairer/PUB.png",
-    },
-  },
-  {
-    id: "4",
-    title: "An Elfic Journey (Soon)",
-    img: "./img/project/elfic/Card.png",
-    type: "Pro",
-    tags: ["Game Design", "Level Design", "Level Art"],
-    externalLink: "https://x.com/Inateno/status/1824714454577123625/photo/1",
-  },
-  {
-    id: "5",
-    title: "Echoes of the restless",
-    translation: "projects.echoes",
-    img: "./img/project/echoes/ECHOESOFTHERESTLESS.png",
-    type: "Perso",
-    tags: ["Game Design", "Level Design"],
-    page: {
-      backgroundImage: "../img/project/echoes/Cinématique.gif",
-      moteur: "Unreal Engine 4.27",
-      tools: "Miro, Trello, Discord",
-      plateforme: ["Windows"],
-      gameType: [
-        "Platformer",
-        "Cartoon",
-        "3D",
-        "Fantasy",
-        "Projet de fin d'étude",
-      ],
-      video: "https://www.youtube.com/embed/eKoYnI1io94",
-      pathi18n: "projects",
-      conceptionImage: [
-        "../img/project/echoes/Conception.png",
-        "../img/project/echoes/Conception2.png",
-        "../img/project/echoes/Conception3.png",
-      ],
-      blockoutImage: [],
-      renduImage: [
-        "../img/project/echoes/Rendu.png",
-        "../img/project/echoes/Rendu2.png",
-        "../img/project/echoes/LienD.png",
-        "../img/project/echoes/Forge.png",
-      ],
-      gameplayImageCard1: "../img/project/echoes/Desincarnation.gif",
-
-      gameplayImageCard2: "../img/project/echoes/Dial.gif",
-
-      gameplayImageCard3: "../img/project/echoes/Mastering.gif",
-      gameplayImageCard4: "../img/project/echoes/Momentcalme.gif",
-    },
-  },
-  {
-    id: "6",
-    title: "Game Jam - NOKUEST 3310",
-    img: "./img/project/nokuest/nokuest.png",
+    title: "Game Jams & Mini Game",
+    img: "./img/project/My_Itch/Itch.jpeg",
     type: "Perso",
     tags: ["Game Design", "Level Design", "Art", "Script"],
-    externalLink: "https://mospp.itch.io/nokuest-nokiagamejam3310",
-  },
-  {
-    id: "7",
-    title: "Inferno's descent (Protoype)",
-    translation: "projects.inferno",
-    img: "./img/project/inferno/InfernosDescent.png",
-    type: "Perso",
-    tags: ["Game Design", "Level Design"],
-    page: {
-      backgroundImage: "../img/project/inferno/blockoutbiome3.png",
-      moteur: "Unreal Engine 5.2",
-      tools: "Miro, Trello, Discord",
-      plateforme: ["Windows"],
-      gameType: ["Trpg", "3D", "DnD", "Proof of cconcept"],
-      video: "https://www.youtube.com/embed/wogfOxA6bQw",
-      pathi18n: "projects",
-      conceptionImage: [
-        "../img/project/inferno/Map.png",
-        "../img/project/inferno/blockoutbiome1.png",
-      ],
-      blockoutImage: [
-        "../img/project/inferno/blockoutbiome2.png",
-        "../img/project/inferno/blockoutbiome3.png",
-        "../img/project/inferno/Blockout1.png",
-      ],
-      renduImage: [],
-      gameplayImageCard1: "../img/project/inferno/Dice.gif",
-
-      gameplayImageCard2: "../img/project/inferno/Explo.gif",
-
-      gameplayImageCard3: "../img/project/inferno/Camera.gif",
-      gameplayImageCard4: "../img/project/inferno/Slide1.png",
-    },
-  },
-  {
-    id: "7",
-    title: "Concept - UnderDog (Post-Apo)",
-    img: "./img/project/MonteCristo/Card.png",
-    type: "Perso",
-    tags: ["Game Design", "Narrative Design", "Art"],
-    externalLink: "https://www.artstation.com/artwork/6LNORr",
+    externalLink: "https://mospp.itch.io/",
   },
 ];
 

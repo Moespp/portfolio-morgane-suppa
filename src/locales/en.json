@@ -20,7 +20,7 @@
     "home": {
         "hero": {
             "title": "MORGANE SUPPA",
-            "description": "From my earliest steps, I have always been drawn to art and video games. Level Design and Narrative Design were immediately the areas where I felt most comfortable, followed by environmental storytelling and Level Art. My artistic profile merges with my technical skills. My artistic abilities are the foundation of my collaborations with other teams, a combination I consider essential to bring projects to life. I am fortunate to love my job, and it is a pleasure for me to share with you what I have accomplished.",
+            "description": "Since my earliest steps, I’ve always been drawn to art and video games. Game Design, Level Design, and Level Art quickly became the areas where I felt most at ease. My artistic background blends seamlessly with my technical skills. These artistic abilities form the foundation of my collaborations with other departments—an alliance I believe is essential to bring coherent projects to life. It’s a real pleasure for me to share with you what I’ve created.",
             "more": "Learn more",
             "dowload": "Download",
             "visualization": "View my CV",
@@ -29,19 +29,19 @@
         "about": {
             "title": "About me",
             "bento1": [
-                "Having gained my first experiences in the gaming industry, I began my career in an Escape Game (Secret Door), where I contributed to the design of four competitive escape rooms, a first in France, while also working as a Game Master. I then continued my journey at the independent Toulouse-based studio Dreamirl and the Bordeaux-based studio HammerHead.",
-                "I am an artist and author, creating illustrations for various projects such as tabletop RPG campaigns, fanzines, visual novels, and even 2D video games.",
-                "In addition, I create illustrations for role-playing game campaigns and develop my own campaigns within worlds I have entirely built, with complete world-building.",
-                "Each of these experiences has fueled my passion and refined my skills."
+                "Having gained my first experiences in the game industry, I began my career at an Escape Game (Secret Door), where I contributed to the design of four competitive escape rooms, a first in France, while also working as a Game Master. I then continued my journey with the independent studio Dreamirl in Toulouse and the studio HammerHead in Bordeaux.",
+                "I’m a self-taught artist. I make 2D sprites for game jams and draw for fun.",
+                "At the moment, I am developing my own co-op indie video game, which is set to be released by fall 2027."
             ],
             "bento2": {
                 "title": "A few points about me:",
                 "content": [
                     "Graduated in Game Design and Gamification (2020-2023)",
                     "Fable The Lost Chapter, Titanfall 2, Ori and The Will Of The Wisps, Apex Legends are my favorite games.",
-                    "Self-taught in drawing for over 15 years, I do both realism and semi-realism.",
-                    "Pianist for over 10 years, I also play guitar, ukulele, and sing.",
-                    "Creator of many Role Play universes on Discord and also a Game Master."
+                    "I am currently creating and seeking funding for my own co-op video game.",
+                    "Self-taught in drawing for over 15 years, I work in both realistic and semi-realistic styles.",
+                    "A pianist for over 10 years, I also play guitar and sing as well.",
+                    "Creator of many Role Play universes on Discord."
                 ]
             },
             "bento3": {
@@ -175,174 +175,6 @@
                 }
             }
         },
-
-        "repairer": {
-    "hero": {
-        "title": "Repairer",
-        "description": "Repairer is a cozy FPS platformer set in a peaceful digital universe where players take on the role of FIVE, a maintenance robot from Green Agency, sent to repair anomalies across different simulations.",
-        "works": "For this project, I worked on Level Design and Level Art (Set dressing)."
-    },
-    "conception": {
-        "title": "Design",
-        "description": [
-            "Macro level design for the forest simulation.",
-            "Creation of events (robots, Warpzone, Panorama Zone, cinematics, etc.)",
-            "Creation of landmarks, hot spots, and focal points.",
-            "Managing the pacing and difficulty of the level.",
-            "Research and references from similar games."
-        ]
-    },
-    "blockout": {
-        "title": "Blockout",
-        "description": [
-            "Designing gray-boxed levels for the Forest zone to test mechanics.",
-            "Iterations.",
-            "Ensuring clear navigation in the open area so the player never loses sight of their goal.",
-            "Pacing exploration with contemplative areas in the map.",
-            "Collaboration with the DEV team.",
-            "Integrating developer-coded features into the world (events, monsters, etc.).",
-            "Playtesting and bug fixing."
-        ]
-    },
-    "rendu": {
-        "title": "Rendering (Not final)",
-        "description": [
-            "Collaboration with the ART team.",
-            "Feedback and testing of 3D Assets and Props.",
-            "Placement and decoration of validated level maps.",
-            "Particular attention to every detail.",
-            "Bug fixing."
-        ]
-    },
-    "gameplay": {
-        "card1": {
-            "description": "In Repairer, the player controls FIVE, a maintenance robot who is both agile and calm. The movement system reflects the cozy spirit of the game: easy to master but fluid. FIVE can walk calmly, run, wall-run, jump, double-jump, climb, and use a dash to zip between platforms. Thanks to the grappling hook, FIVE can also latch onto surfaces and swing smoothly. Inspired by games like A Short Hike, the movement is designed to offer a pleasant experience, allowing players to enjoy the relaxed pace while exploring at their own rhythm. Every action feels natural, encouraging relaxation while navigating this digital world."
-        },
-        "card2": {
-            "description": "Exploration is at the heart of Repairer’s cozy experience. The game immerses players in a tranquil digital world, where each simulation, starting with the forest, invites quiet contemplation and peaceful discovery. The idea is to get lost in a warm environment without pressure. The goal is clear: reach the Grand Tree, but along the way, the player will meet unique robots, each offering a small story or quest. The world is designed to be inviting, encouraging exploration at your own pace, with small surprises scattered for those who take time to explore every corner."
-        },
-        "card3": {
-            "description": "Though the general atmosphere of Repairer is calm and relaxing, it also offers tougher challenges for more daring players. The Warp Zone, for instance, is a secret area revealed after a robot accidentally blows up a dam. This zone features more technical platforming but still maintains the cozy spirit of the game: even the challenging moments retain that cozy feel. The difficulty is there without being frustrating, rewarding players who have mastered FIVE’s movements. It's a great opportunity to push the player's skills without losing the peaceful atmosphere of the adventure."
-        },
-        "card4": {
-            "title": "Green Tech",
-            "description": "Repairer is a first-person platformer and shooter set in a peaceful digital universe. The player controls FIVE, a maintenance robot sent by Green Agency to fix anomalies in simulations, the first being a calm forest (since nature no longer exists in this universe). The gameplay is smooth and accessible, focusing on relaxation and exploration. Inspired by games like A Short Hike, the experience maintains a calm, cozy pace while offering dynamic mechanics. Players are invited to navigate platforms, meet robots with small stories to share, and complete side quests while progressing toward the main objective: reaching the Grand Tree. For more daring players, the Warp Zone introduces an optional challenge, perfect for testing their skills without losing the cozy essence of the game."
-        }
-    }
-},
-
-        "echoes": {
-            "hero": {
-                "title": "Echoes of the restless",
-                "description": "Echoes of the restless is a platformer where you play as an entity returned from the dead who must use ingenuity to travel between worlds in the most curious of ways: finding out how to die.",
-                "works": "For this project, I worked on Game & Level Design, Narrative Design, and Level Art."
-            },
-
-            "conception": {
-                "title": "Design",
-                "description": [
-                    "Design of macro, middle, and micro maps of the three levels.",
-                    "Creation of landmarks, hot spots, and focal points.",
-                    "Placement of events (teasers, cinematics, and other narrative elements).",
-                    "Manage the rhythm and difficulty of the levels.",
-                    "In-depth research on historical and architectural context.",
-                    "References to notable films and books."
-                ]
-            },
-            "blockout": {
-                "title": "Blockout",
-                "description": [
-                    "Worked on levels with gray blocks for playtests and testing mechanics.",
-                    "Iterations.",
-                    "Ensure playability of levels and transition between them.",
-                    "Integration of various challenges per level.",
-                    "Test various gameplay elements and verify their functionality in challenges.",
-                    "Level Streaming management.",
-                    "Tests to ensure good navigation in the game.",
-                    "Tests of all levels to ensure smooth gameplay and feasibility of challenges.",
-                    "Bug and glitch fixing in levels."
-                ]
-            },
-            "rendu": {
-                "title": "Rendering",
-                "description": [
-                    "Integration of assets instead of gray blocks.",
-                    "Creation of memorable places for the player (hotspot).",
-                    "Telling the game's story through the environment.",
-                    "Strategic placement of interactive objects to provide an immersive gameplay experience.",
-                    "Balancing brightness and visual effects to ensure a coherent and pleasant atmosphere.",
-                    "Tests to ensure that the environment meets player expectations and does not slow down the game.",
-                    "Integration of all game sounds and music.",
-                    "Quality Assurance (QA) management.",
-                    "Bug fixing."
-                ]
-            },
-            "gameplay": {
-                "card1": {
-                    "description": "The disincarnation mechanic is essential for progressing. Here, the player encounters a frightened creature, hiding in a bush. To progress, the player must wait for the creature to come out of hiding and then jump on it. This action unlocks a previously inaccessible passage in the other world. This mechanic encourages reflection and observation of the environment."
-                },
-                "card2": {
-                    "description": "The game is punctuated by the discovery of narrative locations. These moments allow Cethlenn to tell the story of the places and deepen the context of their common quest. Players learn more about the world's history. These narrative moments add a layer of depth to the exploration, offering a welcome break while enriching the gameplay experience."
-                },
-                "card3": {
-                    "description": "At the end of each level, players must use their mastery of skills acquired in final confrontations. Here, in a snake-infested temple, the player must avoid their field of vision to avoid returning to the last checkpoint. Disembodiment is necessary to progress, but the patrolling snakes are a major challenge. Players must be quick to get out of the snakes' sight and move on."
-                },
-                "card4": {
-                    "title": "Echoes of the past.",
-                    "description": "Each level is divided into three parts: The game offers progression through three phases across two different worlds (divine/fomorian): Tutorial, where the player familiarizes themselves with the mechanics; Practice, which allows the player to perfect newly acquired skills; and Mastery, where the player is tested on everything they have learned throughout the level. The main mechanic is to find a way to disincarnate to switch worlds and discover passages to progress. The story adds a narrative layer, reinforcing player engagement through the theme of redemption."
-                }
-            }
-        },
-        "inferno": {
-            "hero": {
-                "title": "Inferno's descent",
-                "description": "Inferno's Descent is a Proof Of Concept of a T-RPG game inspired by the Dungeons and Dragons book: Descent into Avernus.",
-                "works": "For this project, I worked on Game & Level Design, Narrative Design, and Level Art."
-            },
-
-            "conception": {
-                "title": "Design",
-                "description": [
-                    "Design of the hangar zone schematic.",
-                    "Design of different paths and interactions.",
-                    "Placement of narrative events (Tormentor, Control Panels, Dice Rolls, cinematics, etc...).",
-                    "Manage the balance of the learning zone.",
-                    "Improvement of the fluidity of exploration and interactivity within the zone."
-                ]
-            },
-            "blockout": {
-                "title": "Blockout",
-                "description": [
-                    "Worked on levels with gray blocks.",
-                    "Iterations.",
-                    "Ensure playability of levels."
-                ]
-            },
-            "rendu": {
-                "title": "Rendering",
-                "description": [
-                    "Search for free assets on the epic store.",
-                    "Placement and decoration of assets.",
-                    "Modification of features integrated by the developer in the map (events, narration, etc.)."
-                ]
-            },
-            "gameplay": {
-                "card1": {
-                    "description": "The die roll is an essential mechanism for introducing a degree of chance and uncertainty into the resolution of actions. When a character attempts to perform an action, such as succeeding at an attack or solving a puzzle, a die roll is made to determine whether the action succeeds or fails. This system balances the game by creating situations where even the most skilled characters can fail or succeed unexpectedly, adding suspense and dynamics to the unfolding story."
-                },
-                "card2": {
-                    "description": "Exploration and problem-solving are essential to progress. Here, characters find themselves trapped in a strange hangar. By exploring, players can uncover information about the place and discover the objective to be achieved. They might find notes left by previous occupants, hidden mechanisms or objects useful for unlocking doors or disabling traps."
-                },
-                "card3": {
-                    "description": "The camera allows players to switch from a top-down view, reminiscent of classic board games, to an immersive view. This transition between perspectives gives players control over their visual experience. Inspired by the BG3 camera, this feature allows players to appreciate the strategy and details of the game. The top-down view is ideal for planning actions and navigating, while the close-up view allows for appreciating the details."
-                },
-                "card4": {
-                    "title": "Infernal adventure.",
-                    "description": "Each level is divided into three parts: The game offers progression through three phases across two different worlds (divine/fomorian): Tutorial, where the player familiarizes themselves with the mechanics; Practice, which allows the player to perfect newly acquired skills; and Mastery, where the player is tested on everything they have learned throughout the level. The main mechanic is to find a way to disincarnate to switch worlds and discover passages to progress. The story adds a narrative layer, reinforcing player engagement through the theme of redemption."
-                }
-            }
-        }
-    },
 
     "legalMention": {
         "title": "Legal mentions",

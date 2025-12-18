@@ -19,7 +19,7 @@
     "home": {
         "hero": {
             "title": "MORGANE SUPPA",
-            "description": "Depuis mes premiers pas, j'ai toujours été attirée par l'art et les jeux-vidéos. Le Level Design et la Narration furent immédiatement les spécialités où j'étais le plus à l'aise suivi du storytelling environnemental ainsi que le Level Art. Mon profil artistique fusionne avec mes compétences techniques. Mes capacités artistiques sont le socle de mes collaborations avec les autres pôles, une alliance que je pense indispensable pour donner vie à des projets. J'ai la chance d'adorer mon métier et c'est un plaisir pour moi de partager avec vous ce que j'ai réalisé.",
+            "description": "Depuis mes premiers pas, j'ai toujours été attirée par l'art et les jeux-vidéos. Le Game Design et Level Design ainsi que le Level Art furent immédiatement les spécialités où j'étais le plus à l'aise. Mon profil artistique fusionne avec mes compétences techniques. Mes capacités artistiques sont le socle de mes collaborations avec les autres pôles, une alliance que je pense indispensable pour donner vie à des projets cohérents. C'est un plaisir pour moi de partager avec vous ce que j'ai réalisé.",
             "more": "En savoir plus",
             "dowload": "Télécharger",
             "visualization": "Voir mon CV",
@@ -29,18 +29,18 @@
             "title": "À propos",
             "bento1": [
                 "Ayant acquis mes premières expériences dans l'industrie du jeu, j'ai débuté ma carrière dans un Escape Game (Secret Door), où j'ai participé à la conception de quatre salles d'escape compétitives, une première en France, tout en occupant le rôle de Game Master. J'ai ensuite poursuivi mon parcours au sein du studio indépendant toulousain Dreamirl et du studio bordelais HammerHead.",
-                "Je suis artiste auteur et je réalise des illustrations pour des projets variés tels que des campagnes de jeux de rôle, des fanzines, des romans visuels et même des jeux vidéo en 2D.",
-                "Par ailleurs, je réalise également pour des campagnes de jeux de rôle et développe mes propres campagnes avec un World Building complet.",
-                "Chaque étape a façonné ma passion et affiné mes compétences."
+                "Je suis artiste autodidacte. Je crée des sprites 2D pour des game jams et je dessine pour le plaisir.",
+                "En ce moment je suis en train de créer mon propre jeu-vidéo indé en coop qui sortira d'ici automne 2027"
             ],
             "bento2": {
                 "title": "Quelques points sur moi :",
                 "content": [
                     "Diplômée en Game Design concepteur en gamification (2020-2023)",
                     "Fable The Lost Chapter, Titanfall 2, Ori and The Will Of The Wisps, Apex Legends sont mes jeux préférés.",
+                    "Je suis en train de créer et de faire financer mon propre jeu-vidéo de coop.",
                     "Autodidacte dans le dessin depuis plus de 15 ans, je fais du réalisme ainsi que du semi-réaliste.",
-                    "Pianiste depuis plus de 10 ans, je joue également de la guitare, du ukulélé et je chante également.",
-                    "Créatrice de pleins d'univers de Role Play sur Discord mais également Maître du jeu."
+                    "Pianiste depuis plus de 10 ans, je joue également de la guitare et je chante également.",
+                    "Créatrice de pleins d'univers de Role Play sur Discord."
                 ]
             },
             "bento3": {
@@ -230,68 +230,7 @@
                 }
             }
         },
-        "echoes": {
-            "hero": {
-                "title": "Echoes of the restless",
-                "description": "Echoes of the restless est un platformer où vous incarnez une entité revenue d'entre les morts qui devra usé d'ingéniosité pour voyager entre les mondes de la plus curieuse des façons : trouver comment mourir.",
-                "works": "Pour ce projet j'ai travaillé sur le Game & Level Design, le Narrative Design ainsi que le Level Art."
-            },
-
-            "conception": {
-                "title": "Conception",
-                "description": [
-                    "Conception schémas macro, middle et micro des trois niveaux.",
-                    "Création des landmark, hot spot et focal point.",
-                    "Placement des événements (teasings, cinématiques et autres éléments de narration.)",
-                    "Gérer le rythme et la difficulté des niveaux.",
-                    "Recherche approfondie du contexte historique et architectural.",
-                    "Références à des films et livres marquants."
-                ]
-            },
-            "blockout": {
-                "title": "Blockout",
-                "description": [
-                    "Travail sur les niveaux en blocs gris pour les playtests et test des mécaniques.",
-                    "Itérations.",
-                    "Assurer la jouabilités des niveaux et la transition entre eux.",
-                    "Intégration des différents challenges par niveaux.",
-                    "Test des différents éléments de gameplay et vérification de leur fonctionnement dans les challenges.",
-                    "Gestion du Level Streaming.",
-                    "Tests pour s'assurer de la bonne navigation dans le jeu.",
-                    "Tests de tous les niveaux pour assurer le bon déroulement du jeu et la faisabilité des challenges.",
-                    "Correction des bugs et glitch des niveaux."
-                ]
-            },
-            "rendu": {
-                "title": "Rendu",
-                "description": [
-                    "Intégration des assets à la place des blocks de gris.",
-                    "Créations d'endroits mémorables pour le joueur. (hotspot)",
-                    "Raconter l'histoire du jeu à travers l'environnement.",
-                    "Placement stratégique d'objets interactifs pour offrir une expérience de jeu immersive.",
-                    "Équilibrage de la luminosité et effets visuels pour assurer une ambiance cohérente et agréable.",
-                    "Tests pour s'assurer que l'environnement répond aux attentes des joueurs et ne ralentit pas le jeu.",
-                    "Intégration de tous les sons et musiques du jeu.",
-                    "Gérer la partie Quality Assurance (QA).",
-                    "Bug fix."
-                ]
-            },
-            "gameplay": {
-                "card1": {
-                    "description": "La mécanique de désincarnation est essentielle pour progresser. Ici, le joueur rencontre une créature effrayée, qui se cache dans un buisson. Pour progresser, le joueur doit attendre que la créature sorte de sa cachette, puis lui sauter dessus. Cette action débloque un passage précédemment inaccessible dans l'autre monde. Cette mécanique encourage la réflexion et l'observation de l'environnement."
-                },
-                "card2": {
-                    "description": "Le jeu est ponctué de découverte de lieux narratifs. Ces moments permettent à Cethlenn de raconter l'histoire des lieux et d'approfondir le contexte de leur quête commune. Les joueurs en apprennent davantage sur l'histoire du monde. Ces moments narratifs ajoutent une dimension de profondeur à l'exploration, offrant une pause bienvenue tout en enrichissant l'expérience du jeu."
-                },
-                "card3": {
-                    "description": "À la fin de chaque niveau, les joueurs doivent utiliser leur maîtrise des compétences acquises lors de confrontations finale. Ici, dans un temple infesté de serpents, le joueur doit éviter leur champ de vision pour éviter de revenir au dernier point de contrôle. La désincarnation est nécessaire pour progresser, mais les serpents patrouillant est un défi majeur. Les joueurs doivent être rapide pour sortir de la vue des serpents et avancer."
-                },
-                "card4": {
-                    "title": "L'écho du passé.",
-                    "description": "Chaque niveau est décomposé en trois partie : Le jeu propose une progression à travers trois phases à travers deux mondes différents (divin / fomoire) : Turoriel, où le joueur se familiarise avec les mécaniques; Pratique, qui permet au joueur de perfectionner ses compétences nouvellement acquises ; et Maîtrise, où le joueur est mis à l'épreuve sur tout ce qu'il a appris au cours du niveau. La mécanique principale est de trouver un moyen de se désincarner pour changer de monde et découvrir des passages pour progresser. L'histoire ajoute une couche narrative, renforçant l'engagement du joueur à travers la thématique de la rédemption."
-                }
-            }
-        },
+        
         "inferno": {
             "hero": {
                 "title": "Inferno's descent",
