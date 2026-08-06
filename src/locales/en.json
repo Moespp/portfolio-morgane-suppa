@@ -29,19 +29,20 @@
         "about": {
             "title": "About me",
             "bento1": [
-                "Having gained my first experiences in the game industry, I began my career at an Escape Game (Secret Door), where I contributed to the design of four competitive escape rooms, a first in France, while also working as a Game Master. I then continued my journey with the independent studio Dreamirl in Toulouse and the studio HammerHead in Bordeaux.",
-                "I’m a self-taught artist. I make 2D sprites for game jams and draw for fun.",
-                "At the moment, I am developing my own co-op indie video game, which is set to be released by fall 2027."
+               "Passionate about creating memorable game experiences, I began my career at an Escape Room company in 2022 (Secret Door), where I contributed to the design of four competitive escape rooms—the first of their kind in France—while also working as a Game Master.",
+               "In 2023, I joined the indie studio Dreamirl as the Lead Level Designer on the Metroidvania game: Noreya: The Gold Project. I designed the levels across the game's different biomes, overseeing their development from blockout to final Level Art in close collaboration with the Pixel Art team. This experience gave me a strong understanding of environment composition, gameplay pacing, and cross-disciplinary collaboration throughout production.",
+               "Since 2025, I have been the founder and Lead Project Manager of the indie studio Devil in Disguise. I lead the development of TAILS TALES, a cozy cooperative adventure game supported by the CNC. I oversee the project's direction, Game Design, and Level Design while coordinating the work of collaborators and freelance professionals from renowned studios such as Ubisoft, Rare, and Warner Bros.",
+               "Curious and versatile, I enjoy designing experiences where gameplay, storytelling, and art direction come together to create immersive and memorable worlds."
             ],
             "bento2": {
                 "title": "A few points about me:",
                 "content": [
-                    "Graduated in Game Design and Gamification (2020-2023)",
-                    "Fable The Lost Chapter, Titanfall 2, Ori and The Will Of The Wisps, Apex Legends are my favorite games.",
-                    "I am currently creating and seeking funding for my own co-op video game.",
-                    "Self-taught in drawing for over 15 years, I work in both realistic and semi-realistic styles.",
-                    "A pianist for over 10 years, I also play guitar and sing as well.",
-                    "Creator of many Role Play universes on Discord."
+                    "Graduated in Game Design and Gamification (2020–2023).",
+                    "My favorite games include Fable: The Lost Chapters, Apex Legends, Ori and the Will of the Wisps, and Baldur's Gate 3.",
+                    "Founder of the indie studio Devil in Disguise and creator of TAILS TALES, a cozy cooperative adventure game supported by the CNC. I am currently seeking additional funding to bring the project to completion.",
+                    "Self-taught artist for over 15 years, specializing in realistic and semi-realistic illustration.",
+                    "Pianist for over 10 years, I also play guitar and enjoy singing.",
+                    "Creator and writer of multiple role-playing universes on Discord."
                 ]
             },
             "bento3": {
@@ -193,4 +194,5 @@
             "link": "alexymartinetprod.com"
         }
     }
+}
 }

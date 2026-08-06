@@ -28,19 +28,20 @@
         "about": {
             "title": "À propos",
             "bento1": [
-                "Ayant acquis mes premières expériences dans l'industrie du jeu, j'ai débuté ma carrière dans un Escape Game (Secret Door), où j'ai participé à la conception de quatre salles d'escape compétitives, une première en France, tout en occupant le rôle de Game Master. J'ai ensuite poursuivi mon parcours au sein du studio indépendant toulousain Dreamirl et du studio bordelais HammerHead.",
-                "Je suis artiste autodidacte. Je crée des sprites 2D pour des game jams et je dessine pour le plaisir.",
-                "En ce moment je suis en train de créer mon propre jeu-vidéo indé en coop qui sortira d'ici automne 2027"
+                "Passionnée par la création d'expériences vidéoludiques, j'ai débuté ma carrière dans un Escape Game en 2022 (Secret Door), où j'ai participé à la conception de quatre salles d'escape compétitives, une première en France, tout en occupant le rôle de Game Master.",
+                "J'ai ensuite rejoint le studio indépendant Dreamirl en 2023, où j'ai occupé le poste de Level Designer principal sur le metroidvania : Noreya The Gold Project. J'y ai conçu les niveaux des différents biomes en accompagnant leur production du blockout jusqu'au Level Art, en étroite collaboration avec l'équipe Pixel Artists. Cette expérience m'a permis de développer une solide vision de la composition des environnements, du rythme de jeu et de la collaboration entre les différents métiers de la production.",
+                "Depuis 2025, je suis la fondatrice et Lead Project du studio indépendant Devil in Disguise. J'y dirige le développement de TAILS TALES, un jeu d'aventure coopératif cozy soutenu par le CNC. J'y assure la direction du projet ainsi que le Game Design et le Level Design, tout en coordonnant le travail de collaborateurs et de freelances issus de studios reconnus tels qu'Ubisoft, Rare & Warner Bros.",
+                "Curieuse et polyvalente, j'aime concevoir des expériences où gameplay, narration et direction artistique se complètent pour créer des mondes immersifs et mémorables."
             ],
             "bento2": {
                 "title": "Quelques points sur moi :",
                 "content": [
-                    "Diplômée en Game Design concepteur en gamification (2020-2023)",
-                    "Fable The Lost Chapter, Titanfall 2, Ori and The Will Of The Wisps, Apex Legends sont mes jeux préférés.",
-                    "Je suis en train de créer et de faire financer mon propre jeu-vidéo de coop.",
-                    "Autodidacte dans le dessin depuis plus de 15 ans, je fais du réalisme ainsi que du semi-réaliste.",
-                    "Pianiste depuis plus de 10 ans, je joue également de la guitare et je chante également.",
-                    "Créatrice de pleins d'univers de Role Play sur Discord."
+                    "Diplômée d'un Bachelor en Game Design & Gamification (2020-2023).",
+                    "Mes jeux préférés sont Fable: The Lost Chapters, Apex Legends, Ori and the Will of the Wisps et Baldur's Gate III.",
+                    "Fondatrice du studio indépendant Devil in Disguise et créatrice de TAILS TALES, un jeu d'aventure coopératif cozy soutenu par le CNC. Je poursuis actuellement son développement tout en recherchant les financements nécessaires à sa production.",
+                    "Artiste autodidacte depuis plus de 15 ans, spécialisée dans le dessin réaliste et semi-réaliste.",
+                    "Pianiste depuis plus de 10 ans, je pratique également la guitare et le chant.",
+                    "Créatrice de nombreux univers de jeu de rôle sur Discord."
                 ]
             },
             "bento3": {
